@@ -1,0 +1,926 @@
+[
+  {
+    "skillSlug": "vs-code",
+    "title": "VS Code",
+    "banglaName": "ভি এস কোড",
+    "analogy": "যেমন একজন দোকানদার হিসাবের খাতা, কলম, ক্যালকুলেটর এক জায়গায় রাখে; developer VS Code-এ project-এর সব file গুছিয়ে রাখে।",
+    "status": "approved"
+  },
+  {
+    "skillSlug": "vs-code-terminal",
+    "title": "VS Code Terminal",
+    "banglaName": "ভি এস কোড টার্মিনাল",
+    "analogy": "এটি হলো কাজের যন্ত্রপাতির বাক্সের মতো—কৃষক যেমন কোদাল, দা, পানি দেওয়ার পাত্র গুছিয়ে রাখে, developer এই টুল দিয়ে কাজ গুছিয়ে করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "nodejs",
+    "title": "Node.js",
+    "banglaName": "নোড জে এস",
+    "analogy": "এটি হলো কাজের যন্ত্রপাতির বাক্সের মতো—কৃষক যেমন কোদাল, দা, পানি দেওয়ার পাত্র গুছিয়ে রাখে, developer এই টুল দিয়ে কাজ গুছিয়ে করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "git-scm",
+    "title": "Git SCM",
+    "banglaName": "গিট এস সি এম",
+    "analogy": "এটি হলো কাজের যন্ত্রপাতির বাক্সের মতো—কৃষক যেমন কোদাল, দা, পানি দেওয়ার পাত্র গুছিয়ে রাখে, developer এই টুল দিয়ে কাজ গুছিয়ে করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "git",
+    "title": "Git",
+    "banglaName": "গিট",
+    "analogy": "ধান কাটার সময় প্রতিদিন কত জমি কাটা হলো লিখে রাখলে পরে ভুল হয় না। Git তেমনি code-এর প্রতিদিনের হিসাব রাখে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "github",
+    "title": "GitHub",
+    "banglaName": "গিটহাব",
+    "analogy": "নিজের খাতা ঘরে রাখলে শুধু আপনি দেখেন; ইউনিয়ন অফিসের নোটিশ বোর্ডে দিলে সবাই দেখতে পারে। GitHub তেমন online জায়গা।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "github-desktop",
+    "title": "GitHub Desktop",
+    "banglaName": "গিটহাব ডেস্কটপ",
+    "analogy": "এটি হলো কাজের যন্ত্রপাতির বাক্সের মতো—কৃষক যেমন কোদাল, দা, পানি দেওয়ার পাত্র গুছিয়ে রাখে, developer এই টুল দিয়ে কাজ গুছিয়ে করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "html5",
+    "title": "HTML5",
+    "banglaName": "এইচটিএমএল ফাইভ",
+    "analogy": "ঘর বানানোর আগে বাঁশ, খুঁটি, দরজা, জানালা বসাতে হয়। HTML তেমনি website-এর ঘর তৈরি করে।",
+    "status": "approved"
+  },
+  {
+    "skillSlug": "css3",
+    "title": "CSS3",
+    "banglaName": "সিএসএস থ্রি",
+    "analogy": "HTML যদি ঘরের ইট-দেয়াল হয়, CSS হলো ঘরের রং, পর্দা, আলো আর সাজসজ্জা।",
+    "status": "approved"
+  },
+  {
+    "skillSlug": "javascript",
+    "title": "JavaScript",
+    "banglaName": "জাভাস্ক্রিপ্ট",
+    "analogy": "দোকানে ঘণ্টা বাজালে দোকানদার বুঝে গ্রাহক এসেছে; JavaScript-ও click বা input দেখে কাজ শুরু করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "es6",
+    "title": "ES6",
+    "banglaName": "ই এস সিক্স",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "typescript",
+    "title": "TypeScript",
+    "banglaName": "টাইপস্ক্রিপ্ট",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "jsx",
+    "title": "JSX",
+    "banglaName": "জে এস এক্স",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "tailwind-css",
+    "title": "Tailwind CSS",
+    "banglaName": "টেইলউইন্ড সিএসএস",
+    "analogy": "এটি ঘর রং করা ও সাজানোর মতো—কাঠামো আগে থাকে, তারপর রং, পর্দা, আলো দিয়ে সুন্দর করা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "daisyui",
+    "title": "DaisyUI",
+    "banglaName": "ডেইজি ইউআই",
+    "analogy": "এটি ঘর রং করা ও সাজানোর মতো—কাঠামো আগে থাকে, তারপর রং, পর্দা, আলো দিয়ে সুন্দর করা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "hero-ui",
+    "title": "Hero UI",
+    "banglaName": "হিরো ইউআই",
+    "analogy": "এটি ঘর রং করা ও সাজানোর মতো—কাঠামো আগে থাকে, তারপর রং, পর্দা, আলো দিয়ে সুন্দর করা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "shadcn",
+    "title": "ShadCN",
+    "banglaName": "শ্যাড সি এন",
+    "analogy": "এটি ঘর রং করা ও সাজানোর মতো—কাঠামো আগে থাকে, তারপর রং, পর্দা, আলো দিয়ে সুন্দর করা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "font-awesome",
+    "title": "Font Awesome",
+    "banglaName": "ফন্ট অসাম",
+    "analogy": "এটি ঘর রং করা ও সাজানোর মতো—কাঠামো আগে থাকে, তারপর রং, পর্দা, আলো দিয়ে সুন্দর করা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "google-fonts",
+    "title": "Google Fonts",
+    "banglaName": "গুগল ফন্টস",
+    "analogy": "এটি ঘর রং করা ও সাজানোর মতো—কাঠামো আগে থাকে, তারপর রং, পর্দা, আলো দিয়ে সুন্দর করা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "flexbox",
+    "title": "Flexbox",
+    "banglaName": "ফ্লেক্সবক্স",
+    "analogy": "এটি ঘর রং করা ও সাজানোর মতো—কাঠামো আগে থাকে, তারপর রং, পর্দা, আলো দিয়ে সুন্দর করা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "css-grid",
+    "title": "CSS Grid",
+    "banglaName": "সিএসএস গ্রিড",
+    "analogy": "এটি ঘর রং করা ও সাজানোর মতো—কাঠামো আগে থাকে, তারপর রং, পর্দা, আলো দিয়ে সুন্দর করা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "react",
+    "title": "React",
+    "banglaName": "রিয়্যাক্ট",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "vite",
+    "title": "Vite",
+    "banglaName": "ভিট",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "nextjs",
+    "title": "Next.js",
+    "banglaName": "নেক্সট জে এস",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "react-toastify",
+    "title": "React Toastify",
+    "banglaName": "রিয়্যাক্ট টোস্টিফাই",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "recharts",
+    "title": "Recharts",
+    "banglaName": "রি-চার্টস",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "swiperjs",
+    "title": "Swiper.js",
+    "banglaName": "সুইপার জে এস",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "axios",
+    "title": "Axios",
+    "banglaName": "অ্যাক্সিওস",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "fetch-api",
+    "title": "Fetch API",
+    "banglaName": "ফেচ এপিআই",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "date-fns",
+    "title": "Date-FNS",
+    "banglaName": "ডেট এফ এন এস",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "next-dynamic",
+    "title": "next/dynamic",
+    "banglaName": "নেক্সট ডাইনামিক",
+    "analogy": "এটি তৈরি বাঁশের মাচার মতো—শূন্য থেকে সব বানাতে হয় না, আগে থেকে বানানো কাঠামোর উপর দ্রুত ঘর বানানো যায়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "dom",
+    "title": "DOM",
+    "banglaName": "ডম",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "bom",
+    "title": "BOM",
+    "banglaName": "বম",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "window-object",
+    "title": "Window Object",
+    "banglaName": "উইন্ডো অবজেক্ট",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "location-api",
+    "title": "Location API",
+    "banglaName": "লোকেশন এপিআই",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "history-api",
+    "title": "History API",
+    "banglaName": "হিস্ট্রি এপিআই",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "localstorage",
+    "title": "LocalStorage",
+    "banglaName": "লোকাল স্টোরেজ",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "sessionstorage",
+    "title": "SessionStorage",
+    "banglaName": "সেশন স্টোরেজ",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "promise",
+    "title": "Promise",
+    "banglaName": "প্রমিস",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "async-await",
+    "title": "Async/Await",
+    "banglaName": "অ্যাসিঙ্ক অ্যাওয়েট",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "settimeout-setinterval-cleartimeout",
+    "title": "setTimeout/setInterval/clearTimeout",
+    "banglaName": "টাইমার ফাংশন",
+    "analogy": "এটি রান্নার নিয়ম বা বাজারের হিসাবের মতো—একটা নিয়ম লিখে দিলে computer বারবার সেই কাজ করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "nodejs-backend",
+    "title": "Node.js Backend",
+    "banglaName": "নোড জে এস ব্যাকএন্ড",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "expressjs",
+    "title": "Express.js",
+    "banglaName": "এক্সপ্রেস জে এস",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "rest-api",
+    "title": "REST API",
+    "banglaName": "রেস্ট এপিআই",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "crud-api",
+    "title": "CRUD API",
+    "banglaName": "ক্রাড এপিআই",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "cors",
+    "title": "CORS",
+    "banglaName": "কর্স",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "nodemon",
+    "title": "Nodemon",
+    "banglaName": "নোডেমন",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "middleware",
+    "title": "Middleware",
+    "banglaName": "মিডলওয়্যার",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "routes",
+    "title": "Routes",
+    "banglaName": "রাউটস",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "controllers",
+    "title": "Controllers",
+    "banglaName": "কন্ট্রোলারস",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "services",
+    "title": "Services",
+    "banglaName": "সার্ভিসেস",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "modular-pattern",
+    "title": "Modular Pattern",
+    "banglaName": "মডিউলার প্যাটার্ন",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "mvc-clean-architecture",
+    "title": "MVC/Clean Architecture",
+    "banglaName": "এম ভি সি / ক্লিন আর্কিটেকচার",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "api-endpoint-design",
+    "title": "API Endpoint Design",
+    "banglaName": "এপিআই এন্ডপয়েন্ট ডিজাইন",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "environment-variables",
+    "title": "Environment Variables",
+    "banglaName": "এনভায়রনমেন্ট ভ্যারিয়েবলস",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "mongodb",
+    "title": "MongoDB",
+    "banglaName": "মঙ্গোডিবি",
+    "analogy": "এটি গ্রামের বাজারের বড় হিসাবের খাতার মতো—কার কাছে কী আছে, কত দাম, কত বাকি—সব গুছিয়ে রাখা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "mongodb-atlas",
+    "title": "MongoDB Atlas",
+    "banglaName": "মঙ্গোডিবি অ্যাটলাস",
+    "analogy": "এটি গ্রামের বাজারের বড় হিসাবের খাতার মতো—কার কাছে কী আছে, কত দাম, কত বাকি—সব গুছিয়ে রাখা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "mongoose-odm",
+    "title": "Mongoose ODM",
+    "banglaName": "মঙ্গুজ ওডিএম",
+    "analogy": "এটি গ্রামের বাজারের বড় হিসাবের খাতার মতো—কার কাছে কী আছে, কত দাম, কত বাকি—সব গুছিয়ে রাখা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "nosql-booster",
+    "title": "NoSQL Booster",
+    "banglaName": "নো এস কিউ এল বুস্টার",
+    "analogy": "এটি গ্রামের বাজারের বড় হিসাবের খাতার মতো—কার কাছে কী আছে, কত দাম, কত বাকি—সব গুছিয়ে রাখা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "objectid",
+    "title": "ObjectId",
+    "banglaName": "অবজেক্ট আইডি",
+    "analogy": "এটি গ্রামের বাজারের বড় হিসাবের খাতার মতো—কার কাছে কী আছে, কত দাম, কত বাকি—সব গুছিয়ে রাখা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "mongodb-operators",
+    "title": "MongoDB Operators",
+    "banglaName": "মঙ্গোডিবি অপারেটরস",
+    "analogy": "এটি গ্রামের বাজারের বড় হিসাবের খাতার মতো—কার কাছে কী আছে, কত দাম, কত বাকি—সব গুছিয়ে রাখা হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "betterauth",
+    "title": "BetterAuth",
+    "banglaName": "বেটার অথ",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "mongodb-adapter",
+    "title": "MongoDB Adapter",
+    "banglaName": "মঙ্গোডিবি অ্যাডাপ্টার",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "jwt",
+    "title": "JWT",
+    "banglaName": "জে ডব্লিউ টি",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "httponly-cookies",
+    "title": "HTTPOnly Cookies",
+    "banglaName": "এইচটিটিপি অনলি কুকিজ",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "session-management",
+    "title": "Session Management",
+    "banglaName": "সেশন ম্যানেজমেন্ট",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "google-oauth",
+    "title": "Google OAuth",
+    "banglaName": "গুগল ওঅথ",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "github-oauth",
+    "title": "GitHub OAuth",
+    "banglaName": "গিটহাব ওঅথ",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "protected-route",
+    "title": "Protected Route",
+    "banglaName": "প্রটেক্টেড রাউট",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "rbac",
+    "title": "RBAC",
+    "banglaName": "আর বি এ সি",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "password-reset",
+    "title": "Password Reset",
+    "banglaName": "পাসওয়ার্ড রিসেট",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "email-verification",
+    "title": "Email Verification",
+    "banglaName": "ইমেইল ভেরিফিকেশন",
+    "analogy": "এটি দোকানের পিছনের ঘরের মতো—সামনে ক্রেতা শুধু জিনিস দেখে, কিন্তু পিছনে হিসাব, মজুদ, তালা সব চলে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "security-review",
+    "title": "Security Review",
+    "banglaName": "সিকিউরিটি রিভিউ",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "stripe",
+    "title": "Stripe",
+    "banglaName": "স্ট্রাইপ",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "stripe-checkout",
+    "title": "Stripe Checkout",
+    "banglaName": "স্ট্রাইপ চেকআউট",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "stripe-webhooks",
+    "title": "Stripe Webhooks",
+    "banglaName": "স্ট্রাইপ ওয়েবহুকস",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "sslcommerz",
+    "title": "SSLCommerz",
+    "banglaName": "এস এস এল কমার্জ",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "sslcommerz-sandbox",
+    "title": "SSLCommerz Sandbox",
+    "banglaName": "এস এস এল কমার্জ স্যান্ডবক্স",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "introduction-to-testing",
+    "title": "Introduction to Testing",
+    "banglaName": "টেস্টিং পরিচিতি",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "uat",
+    "title": "UAT",
+    "banglaName": "ইউ এ টি",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "end-to-end-testing",
+    "title": "End-to-End Testing",
+    "banglaName": "এন্ড টু এন্ড টেস্টিং",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "automated-tests",
+    "title": "Automated Tests",
+    "banglaName": "অটোমেটেড টেস্টস",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "github-pages",
+    "title": "GitHub Pages",
+    "banglaName": "গিটহাব পেজেস",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "netlify",
+    "title": "Netlify",
+    "banglaName": "নেটলিফাই",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "surge",
+    "title": "Surge",
+    "banglaName": "সার্জ",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "vercel",
+    "title": "Vercel",
+    "banglaName": "ভারসেল",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "railway",
+    "title": "Railway",
+    "banglaName": "রেলওয়ে",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "render",
+    "title": "Render",
+    "banglaName": "রেন্ডার",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "custom-domain",
+    "title": "Custom Domain",
+    "banglaName": "কাস্টম ডোমেইন",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "ssl",
+    "title": "SSL",
+    "banglaName": "এস এস এল",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "ai-mindset-development",
+    "title": "AI Mindset Development",
+    "banglaName": "এআই মাইন্ডসেট ডেভেলপমেন্ট",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "prompt-engineering",
+    "title": "Prompt Engineering",
+    "banglaName": "প্রম্পট ইঞ্জিনিয়ারিং",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "context-engineering",
+    "title": "Context Engineering",
+    "banglaName": "কনটেক্সট ইঞ্জিনিয়ারিং",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "prd",
+    "title": "PRD",
+    "banglaName": "পি আর ডি",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "requirement-analysis",
+    "title": "Requirement Analysis",
+    "banglaName": "রিকোয়ারমেন্ট অ্যানালাইসিস",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "user-stories",
+    "title": "User Stories",
+    "banglaName": "ইউজার স্টোরিজ",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "wireframing-prototyping-with-ai",
+    "title": "Wireframing/Prototyping with AI",
+    "banglaName": "ওয়্যারফ্রেমিং ও প্রোটোটাইপিং উইথ এআই",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "cursor-ai",
+    "title": "Cursor AI",
+    "banglaName": "কারসর এআই",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "cursor-agents",
+    "title": "Cursor Agents",
+    "banglaName": "কারসর এজেন্টস",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "claude-code-cli",
+    "title": "Claude Code CLI",
+    "banglaName": "ক্লড কোড সিএলআই",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "claudemd",
+    "title": "CLAUDE.md",
+    "banglaName": "ক্লড ডট এমডি",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "github-copilot-pro",
+    "title": "GitHub Copilot Pro",
+    "banglaName": "গিটহাব কোপাইলট প্রো",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "coderabbit",
+    "title": "CodeRabbit",
+    "banglaName": "কোডর‍্যাবিট",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "ollama",
+    "title": "Ollama",
+    "banglaName": "ওলামা",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "opencode",
+    "title": "OpenCode",
+    "banglaName": "ওপেনকোড",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "antigravity",
+    "title": "Antigravity",
+    "banglaName": "অ্যান্টিগ্র্যাভিটি",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "zai",
+    "title": "Z.ai",
+    "banglaName": "জি ডট এআই",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "boltnew",
+    "title": "Bolt.new",
+    "banglaName": "বোল্ট নিউ",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "lovable",
+    "title": "Lovable",
+    "banglaName": "লাভেবল",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "v0-by-vercel",
+    "title": "V0 by Vercel",
+    "banglaName": "ভি জিরো বাই ভারসেল",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "figma-mcp",
+    "title": "Figma MCP",
+    "banglaName": "ফিগমা এম সি পি",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "figma-make",
+    "title": "Figma Make",
+    "banglaName": "ফিগমা মেক",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "github-mcp",
+    "title": "GitHub MCP",
+    "banglaName": "গিটহাব এম সি পি",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "supabase-mcp",
+    "title": "Supabase MCP",
+    "banglaName": "সুপাবেজ এম সি পি",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "browser-mcp",
+    "title": "Browser MCP",
+    "banglaName": "ব্রাউজার এম সি পি",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "firebase-studio",
+    "title": "Firebase Studio",
+    "banglaName": "ফায়ারবেজ স্টুডিও",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "google-ai-studio",
+    "title": "Google AI Studio",
+    "banglaName": "গুগল এআই স্টুডিও",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "replit-ai-agent",
+    "title": "Replit AI Agent",
+    "banglaName": "রেপলিট এআই এজেন্ট",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "windsurf-ide",
+    "title": "Windsurf IDE",
+    "banglaName": "উইন্ডসার্ফ আইডিই",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "parallel-ai-agents",
+    "title": "Parallel AI Agents",
+    "banglaName": "প্যারালাল এআই এজেন্টস",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "git-worktrees",
+    "title": "Git Worktrees",
+    "banglaName": "গিট ওয়ার্কট্রিজ",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "ai-code-review",
+    "title": "AI Code Review",
+    "banglaName": "এআই কোড রিভিউ",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "ai-refactoring",
+    "title": "AI Refactoring",
+    "banglaName": "এআই রিফ্যাক্টরিং",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "ai-security-review",
+    "title": "AI Security Review",
+    "banglaName": "এআই সিকিউরিটি রিভিউ",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "ai-integration-in-full-stack-project",
+    "title": "AI Integration in Full Stack Project",
+    "banglaName": "ফুল স্ট্যাক প্রজেক্টে এআই ইন্টিগ্রেশন",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "vibe-coding",
+    "title": "Vibe Coding",
+    "banglaName": "ভাইব কোডিং",
+    "analogy": "এটি বুদ্ধিমান সহকারীর মতো—ভালো প্রশ্ন করলে সে পাশে বসা শিক্ষক বা মিস্ত্রির মতো সাহায্য করে।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "api-integration",
+    "title": "API Integration",
+    "banglaName": "এপিআই ইন্টিগ্রেশন",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "modular-architecture",
+    "title": "Modular Architecture",
+    "banglaName": "মডিউলার আর্কিটেকচার",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "feature-based-module-organization",
+    "title": "Feature-Based Module Organization",
+    "banglaName": "ফিচার বেজড মডিউল অর্গানাইজেশন",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "form-handling-and-validation",
+    "title": "Form Handling & Validation",
+    "banglaName": "ফর্ম হ্যান্ডলিং ও ভ্যালিডেশন",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "error-handling",
+    "title": "Error Handling",
+    "banglaName": "এরর হ্যান্ডলিং",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  },
+  {
+    "skillSlug": "performance-optimization",
+    "title": "Performance Optimization",
+    "banglaName": "পারফরম্যান্স অপটিমাইজেশন",
+    "analogy": "এটি বাড়ি বানানোর নিয়ম-কানুনের মতো—শুধু ইট বসালেই হয় না, মজবুত, নিরাপদ, সুন্দর ও ব্যবহারযোগ্য করতে হয়।",
+    "status": "draft"
+  }
+]

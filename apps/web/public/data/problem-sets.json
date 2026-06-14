@@ -1,0 +1,596 @@
+[
+  {
+    "skillSlug": "vs-code",
+    "title": "VS Code Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "VS Code নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "node -v\nnpm -v",
+    "language": "bash",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "folder_created",
+        "opened_in_vscode"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vs-code-terminal",
+    "title": "VS Code Terminal Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "VS Code Terminal নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "node -v\nnpm -v",
+    "language": "bash",
+    "expectedChecks": {
+      "type": "text_contains",
+      "keywords": [
+        "vs"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodejs",
+    "title": "Node.js Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "Node.js নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "node -v\nnpm -v",
+    "language": "bash",
+    "expectedChecks": {
+      "type": "text_contains",
+      "keywords": [
+        "node.js"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git-scm",
+    "title": "Git SCM Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "Git SCM নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "node -v\nnpm -v",
+    "language": "bash",
+    "expectedChecks": {
+      "type": "text_contains",
+      "keywords": [
+        "git"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git",
+    "title": "Git Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "Git নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "node -v\nnpm -v",
+    "language": "bash",
+    "expectedChecks": {
+      "type": "text_contains",
+      "keywords": [
+        "git"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github",
+    "title": "GitHub Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "GitHub নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "node -v\nnpm -v",
+    "language": "bash",
+    "expectedChecks": {
+      "type": "text_contains",
+      "keywords": [
+        "github"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-desktop",
+    "title": "GitHub Desktop Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "GitHub Desktop নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "node -v\nnpm -v",
+    "language": "bash",
+    "expectedChecks": {
+      "type": "text_contains",
+      "keywords": [
+        "github"
+      ]
+    }
+  },
+  {
+    "skillSlug": "html5",
+    "title": "HTML5 Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "HTML5 নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "<h1>আমার নাম রহিম</h1>\n<p>আমি ওয়েব ডেভেলপমেন্ট শিখছি।</p>\n<a href=\"https://example.com\">আমার লিংক</a>",
+    "language": "html",
+    "expectedChecks": {
+      "type": "html_contains",
+      "tags": [
+        "h1",
+        "p"
+      ]
+    }
+  },
+  {
+    "skillSlug": "css3",
+    "title": "CSS3 Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "CSS3 নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "body {\n  background: #f5fff1;\n  font-family: sans-serif;\n}\n.card {\n  padding: 16px;\n  border-radius: 12px;\n}",
+    "language": "css",
+    "expectedChecks": {
+      "type": "css_contains",
+      "properties": [
+        "background",
+        "color"
+      ]
+    }
+  },
+  {
+    "skillSlug": "javascript",
+    "title": "JavaScript Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "JavaScript নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "es6",
+    "title": "ES6 Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "ES6 নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "typescript",
+    "title": "TypeScript Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "TypeScript নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "jsx",
+    "title": "JSX Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "JSX নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "tailwind-css",
+    "title": "Tailwind CSS Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Tailwind CSS নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "Tailwind CSS: আগে বুঝুন, তারপর ছোট practice করুন।",
+    "language": "text",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "daisyui",
+    "title": "DaisyUI Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "DaisyUI নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "DaisyUI: আগে বুঝুন, তারপর ছোট practice করুন।",
+    "language": "text",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "hero-ui",
+    "title": "Hero UI Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Hero UI নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "Hero UI: আগে বুঝুন, তারপর ছোট practice করুন।",
+    "language": "text",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "shadcn",
+    "title": "ShadCN Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "ShadCN নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "ShadCN: আগে বুঝুন, তারপর ছোট practice করুন।",
+    "language": "text",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "font-awesome",
+    "title": "Font Awesome Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "Font Awesome নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "Font Awesome: আগে বুঝুন, তারপর ছোট practice করুন।",
+    "language": "text",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-fonts",
+    "title": "Google Fonts Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "Google Fonts নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "Google Fonts: আগে বুঝুন, তারপর ছোট practice করুন।",
+    "language": "text",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "flexbox",
+    "title": "Flexbox Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "Flexbox নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "Flexbox: আগে বুঝুন, তারপর ছোট practice করুন।",
+    "language": "text",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "css-grid",
+    "title": "CSS Grid Practice Lab",
+    "difficulty": "easy",
+    "instructionsBn": "CSS Grid নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "CSS Grid: আগে বুঝুন, তারপর ছোট practice করুন।",
+    "language": "text",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "react",
+    "title": "React Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "React নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vite",
+    "title": "Vite Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Vite নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nextjs",
+    "title": "Next.js Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Next.js নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "react-toastify",
+    "title": "React Toastify Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "React Toastify নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "recharts",
+    "title": "Recharts Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Recharts নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "swiperjs",
+    "title": "Swiper.js Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Swiper.js নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "axios",
+    "title": "Axios Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Axios নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "fetch-api",
+    "title": "Fetch API Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Fetch API নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "date-fns",
+    "title": "Date-FNS Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Date-FNS নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "next-dynamic",
+    "title": "next/dynamic Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "next/dynamic নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "dom",
+    "title": "DOM Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "DOM নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "bom",
+    "title": "BOM Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "BOM নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "window-object",
+    "title": "Window Object Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Window Object নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "location-api",
+    "title": "Location API Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Location API নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "history-api",
+    "title": "History API Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "History API নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "localstorage",
+    "title": "LocalStorage Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "LocalStorage নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sessionstorage",
+    "title": "SessionStorage Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "SessionStorage নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "promise",
+    "title": "Promise Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Promise নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "async-await",
+    "title": "Async/Await Practice Lab",
+    "difficulty": "medium",
+    "instructionsBn": "Async/Await নিয়ে code/editor-এ একটি ছোট practice সম্পন্ন করুন।",
+    "starterCode": "const name = \"রহিম\";\nconsole.log(\"স্বাগতম \" + name);",
+    "language": "javascript",
+    "expectedChecks": {
+      "type": "checklist",
+      "items": [
+        "attempted",
+        "submitted"
+      ]
+    }
+  }
+]

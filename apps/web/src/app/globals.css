@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* মোবাইলে স্পর্শ-বান্ধব ন্যূনতম মান */
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button, a {
+    min-height: 44px; /* ছোট আঙুলেও চাপা যায় এমন বড় টার্গেট */
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* ব্ল্যাকবোর্ডে চক দিয়ে লেখার মতো আন্ডারলাইন */
+  .chalk-underline {
+    background-image: linear-gradient(to right, #f5c518 0%, #f5c518 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.18em;
+    background-position: 0 92%;
+    padding-bottom: 0.08em;
+  }
+}

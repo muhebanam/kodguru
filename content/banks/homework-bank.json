@@ -1,0 +1,4358 @@
+[
+  {
+    "skillSlug": "vs-code",
+    "title": "VS Code বাড়ির কাজ ১",
+    "instruction": "VS Code কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "vs-code",
+    "title": "VS Code বাড়ির কাজ ২",
+    "instruction": "VS Code ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vs-code",
+    "title": "VS Code বাড়ির কাজ ৩",
+    "instruction": "VS Code শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vs-code-terminal",
+    "title": "VS Code Terminal বাড়ির কাজ ১",
+    "instruction": "VS Code Terminal কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "vs-code-terminal",
+    "title": "VS Code Terminal বাড়ির কাজ ২",
+    "instruction": "VS Code Terminal ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vs-code-terminal",
+    "title": "VS Code Terminal বাড়ির কাজ ৩",
+    "instruction": "VS Code Terminal শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodejs",
+    "title": "Node.js বাড়ির কাজ ১",
+    "instruction": "Node.js কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "nodejs",
+    "title": "Node.js বাড়ির কাজ ২",
+    "instruction": "Node.js ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodejs",
+    "title": "Node.js বাড়ির কাজ ৩",
+    "instruction": "Node.js শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git-scm",
+    "title": "Git SCM বাড়ির কাজ ১",
+    "instruction": "Git SCM কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "git-scm",
+    "title": "Git SCM বাড়ির কাজ ২",
+    "instruction": "Git SCM ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git-scm",
+    "title": "Git SCM বাড়ির কাজ ৩",
+    "instruction": "Git SCM শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git",
+    "title": "Git বাড়ির কাজ ১",
+    "instruction": "Git কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "git",
+    "title": "Git বাড়ির কাজ ২",
+    "instruction": "Git ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git",
+    "title": "Git বাড়ির কাজ ৩",
+    "instruction": "Git শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github",
+    "title": "GitHub বাড়ির কাজ ১",
+    "instruction": "GitHub কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "github",
+    "title": "GitHub বাড়ির কাজ ২",
+    "instruction": "GitHub ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github",
+    "title": "GitHub বাড়ির কাজ ৩",
+    "instruction": "GitHub শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-desktop",
+    "title": "GitHub Desktop বাড়ির কাজ ১",
+    "instruction": "GitHub Desktop কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "github-desktop",
+    "title": "GitHub Desktop বাড়ির কাজ ২",
+    "instruction": "GitHub Desktop ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-desktop",
+    "title": "GitHub Desktop বাড়ির কাজ ৩",
+    "instruction": "GitHub Desktop শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "html5",
+    "title": "HTML5 বাড়ির কাজ ১",
+    "instruction": "HTML5 কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "html5",
+    "title": "HTML5 বাড়ির কাজ ২",
+    "instruction": "HTML5 ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "html5",
+    "title": "HTML5 বাড়ির কাজ ৩",
+    "instruction": "HTML5 শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "css3",
+    "title": "CSS3 বাড়ির কাজ ১",
+    "instruction": "CSS3 কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "css3",
+    "title": "CSS3 বাড়ির কাজ ২",
+    "instruction": "CSS3 ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "css3",
+    "title": "CSS3 বাড়ির কাজ ৩",
+    "instruction": "CSS3 শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "javascript",
+    "title": "JavaScript বাড়ির কাজ ১",
+    "instruction": "JavaScript কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "javascript",
+    "title": "JavaScript বাড়ির কাজ ২",
+    "instruction": "JavaScript ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "javascript",
+    "title": "JavaScript বাড়ির কাজ ৩",
+    "instruction": "JavaScript শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "es6",
+    "title": "ES6 বাড়ির কাজ ১",
+    "instruction": "ES6 কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "es6",
+    "title": "ES6 বাড়ির কাজ ২",
+    "instruction": "ES6 ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "es6",
+    "title": "ES6 বাড়ির কাজ ৩",
+    "instruction": "ES6 শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "typescript",
+    "title": "TypeScript বাড়ির কাজ ১",
+    "instruction": "TypeScript কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "typescript",
+    "title": "TypeScript বাড়ির কাজ ২",
+    "instruction": "TypeScript ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "typescript",
+    "title": "TypeScript বাড়ির কাজ ৩",
+    "instruction": "TypeScript শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "jsx",
+    "title": "JSX বাড়ির কাজ ১",
+    "instruction": "JSX কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "jsx",
+    "title": "JSX বাড়ির কাজ ২",
+    "instruction": "JSX ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "jsx",
+    "title": "JSX বাড়ির কাজ ৩",
+    "instruction": "JSX শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "tailwind-css",
+    "title": "Tailwind CSS বাড়ির কাজ ১",
+    "instruction": "Tailwind CSS কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "tailwind-css",
+    "title": "Tailwind CSS বাড়ির কাজ ২",
+    "instruction": "Tailwind CSS ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "tailwind-css",
+    "title": "Tailwind CSS বাড়ির কাজ ৩",
+    "instruction": "Tailwind CSS শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "daisyui",
+    "title": "DaisyUI বাড়ির কাজ ১",
+    "instruction": "DaisyUI কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "daisyui",
+    "title": "DaisyUI বাড়ির কাজ ২",
+    "instruction": "DaisyUI ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "daisyui",
+    "title": "DaisyUI বাড়ির কাজ ৩",
+    "instruction": "DaisyUI শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "hero-ui",
+    "title": "Hero UI বাড়ির কাজ ১",
+    "instruction": "Hero UI কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "hero-ui",
+    "title": "Hero UI বাড়ির কাজ ২",
+    "instruction": "Hero UI ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "hero-ui",
+    "title": "Hero UI বাড়ির কাজ ৩",
+    "instruction": "Hero UI শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "shadcn",
+    "title": "ShadCN বাড়ির কাজ ১",
+    "instruction": "ShadCN কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "shadcn",
+    "title": "ShadCN বাড়ির কাজ ২",
+    "instruction": "ShadCN ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "shadcn",
+    "title": "ShadCN বাড়ির কাজ ৩",
+    "instruction": "ShadCN শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "font-awesome",
+    "title": "Font Awesome বাড়ির কাজ ১",
+    "instruction": "Font Awesome কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "font-awesome",
+    "title": "Font Awesome বাড়ির কাজ ২",
+    "instruction": "Font Awesome ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "font-awesome",
+    "title": "Font Awesome বাড়ির কাজ ৩",
+    "instruction": "Font Awesome শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-fonts",
+    "title": "Google Fonts বাড়ির কাজ ১",
+    "instruction": "Google Fonts কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "google-fonts",
+    "title": "Google Fonts বাড়ির কাজ ২",
+    "instruction": "Google Fonts ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-fonts",
+    "title": "Google Fonts বাড়ির কাজ ৩",
+    "instruction": "Google Fonts শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "flexbox",
+    "title": "Flexbox বাড়ির কাজ ১",
+    "instruction": "Flexbox কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "flexbox",
+    "title": "Flexbox বাড়ির কাজ ২",
+    "instruction": "Flexbox ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "flexbox",
+    "title": "Flexbox বাড়ির কাজ ৩",
+    "instruction": "Flexbox শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "css-grid",
+    "title": "CSS Grid বাড়ির কাজ ১",
+    "instruction": "CSS Grid কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "css-grid",
+    "title": "CSS Grid বাড়ির কাজ ২",
+    "instruction": "CSS Grid ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "css-grid",
+    "title": "CSS Grid বাড়ির কাজ ৩",
+    "instruction": "CSS Grid শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "react",
+    "title": "React বাড়ির কাজ ১",
+    "instruction": "React কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "react",
+    "title": "React বাড়ির কাজ ২",
+    "instruction": "React ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "react",
+    "title": "React বাড়ির কাজ ৩",
+    "instruction": "React শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vite",
+    "title": "Vite বাড়ির কাজ ১",
+    "instruction": "Vite কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "vite",
+    "title": "Vite বাড়ির কাজ ২",
+    "instruction": "Vite ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vite",
+    "title": "Vite বাড়ির কাজ ৩",
+    "instruction": "Vite শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nextjs",
+    "title": "Next.js বাড়ির কাজ ১",
+    "instruction": "Next.js কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "nextjs",
+    "title": "Next.js বাড়ির কাজ ২",
+    "instruction": "Next.js ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nextjs",
+    "title": "Next.js বাড়ির কাজ ৩",
+    "instruction": "Next.js শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "react-toastify",
+    "title": "React Toastify বাড়ির কাজ ১",
+    "instruction": "React Toastify কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "react-toastify",
+    "title": "React Toastify বাড়ির কাজ ২",
+    "instruction": "React Toastify ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "react-toastify",
+    "title": "React Toastify বাড়ির কাজ ৩",
+    "instruction": "React Toastify শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "recharts",
+    "title": "Recharts বাড়ির কাজ ১",
+    "instruction": "Recharts কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "recharts",
+    "title": "Recharts বাড়ির কাজ ২",
+    "instruction": "Recharts ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "recharts",
+    "title": "Recharts বাড়ির কাজ ৩",
+    "instruction": "Recharts শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "swiperjs",
+    "title": "Swiper.js বাড়ির কাজ ১",
+    "instruction": "Swiper.js কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "swiperjs",
+    "title": "Swiper.js বাড়ির কাজ ২",
+    "instruction": "Swiper.js ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "swiperjs",
+    "title": "Swiper.js বাড়ির কাজ ৩",
+    "instruction": "Swiper.js শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "axios",
+    "title": "Axios বাড়ির কাজ ১",
+    "instruction": "Axios কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "axios",
+    "title": "Axios বাড়ির কাজ ২",
+    "instruction": "Axios ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "axios",
+    "title": "Axios বাড়ির কাজ ৩",
+    "instruction": "Axios শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "fetch-api",
+    "title": "Fetch API বাড়ির কাজ ১",
+    "instruction": "Fetch API কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "fetch-api",
+    "title": "Fetch API বাড়ির কাজ ২",
+    "instruction": "Fetch API ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "fetch-api",
+    "title": "Fetch API বাড়ির কাজ ৩",
+    "instruction": "Fetch API শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "date-fns",
+    "title": "Date-FNS বাড়ির কাজ ১",
+    "instruction": "Date-FNS কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "date-fns",
+    "title": "Date-FNS বাড়ির কাজ ২",
+    "instruction": "Date-FNS ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "date-fns",
+    "title": "Date-FNS বাড়ির কাজ ৩",
+    "instruction": "Date-FNS শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "next-dynamic",
+    "title": "next/dynamic বাড়ির কাজ ১",
+    "instruction": "next/dynamic কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "next-dynamic",
+    "title": "next/dynamic বাড়ির কাজ ২",
+    "instruction": "next/dynamic ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "next-dynamic",
+    "title": "next/dynamic বাড়ির কাজ ৩",
+    "instruction": "next/dynamic শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "dom",
+    "title": "DOM বাড়ির কাজ ১",
+    "instruction": "DOM কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "dom",
+    "title": "DOM বাড়ির কাজ ২",
+    "instruction": "DOM ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "dom",
+    "title": "DOM বাড়ির কাজ ৩",
+    "instruction": "DOM শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "bom",
+    "title": "BOM বাড়ির কাজ ১",
+    "instruction": "BOM কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "bom",
+    "title": "BOM বাড়ির কাজ ২",
+    "instruction": "BOM ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "bom",
+    "title": "BOM বাড়ির কাজ ৩",
+    "instruction": "BOM শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "window-object",
+    "title": "Window Object বাড়ির কাজ ১",
+    "instruction": "Window Object কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "window-object",
+    "title": "Window Object বাড়ির কাজ ২",
+    "instruction": "Window Object ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "window-object",
+    "title": "Window Object বাড়ির কাজ ৩",
+    "instruction": "Window Object শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "location-api",
+    "title": "Location API বাড়ির কাজ ১",
+    "instruction": "Location API কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "location-api",
+    "title": "Location API বাড়ির কাজ ২",
+    "instruction": "Location API ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "location-api",
+    "title": "Location API বাড়ির কাজ ৩",
+    "instruction": "Location API শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "history-api",
+    "title": "History API বাড়ির কাজ ১",
+    "instruction": "History API কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "history-api",
+    "title": "History API বাড়ির কাজ ২",
+    "instruction": "History API ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "history-api",
+    "title": "History API বাড়ির কাজ ৩",
+    "instruction": "History API শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "localstorage",
+    "title": "LocalStorage বাড়ির কাজ ১",
+    "instruction": "LocalStorage কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "localstorage",
+    "title": "LocalStorage বাড়ির কাজ ২",
+    "instruction": "LocalStorage ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "localstorage",
+    "title": "LocalStorage বাড়ির কাজ ৩",
+    "instruction": "LocalStorage শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sessionstorage",
+    "title": "SessionStorage বাড়ির কাজ ১",
+    "instruction": "SessionStorage কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "sessionstorage",
+    "title": "SessionStorage বাড়ির কাজ ২",
+    "instruction": "SessionStorage ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sessionstorage",
+    "title": "SessionStorage বাড়ির কাজ ৩",
+    "instruction": "SessionStorage শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "promise",
+    "title": "Promise বাড়ির কাজ ১",
+    "instruction": "Promise কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "promise",
+    "title": "Promise বাড়ির কাজ ২",
+    "instruction": "Promise ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "promise",
+    "title": "Promise বাড়ির কাজ ৩",
+    "instruction": "Promise শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "async-await",
+    "title": "Async/Await বাড়ির কাজ ১",
+    "instruction": "Async/Await কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "async-await",
+    "title": "Async/Await বাড়ির কাজ ২",
+    "instruction": "Async/Await ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "async-await",
+    "title": "Async/Await বাড়ির কাজ ৩",
+    "instruction": "Async/Await শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "settimeout-setinterval-cleartimeout",
+    "title": "setTimeout/setInterval/clearTimeout বাড়ির কাজ ১",
+    "instruction": "setTimeout/setInterval/clearTimeout কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "settimeout-setinterval-cleartimeout",
+    "title": "setTimeout/setInterval/clearTimeout বাড়ির কাজ ২",
+    "instruction": "setTimeout/setInterval/clearTimeout ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "settimeout-setinterval-cleartimeout",
+    "title": "setTimeout/setInterval/clearTimeout বাড়ির কাজ ৩",
+    "instruction": "setTimeout/setInterval/clearTimeout শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodejs-backend",
+    "title": "Node.js Backend বাড়ির কাজ ১",
+    "instruction": "Node.js Backend কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "nodejs-backend",
+    "title": "Node.js Backend বাড়ির কাজ ২",
+    "instruction": "Node.js Backend ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodejs-backend",
+    "title": "Node.js Backend বাড়ির কাজ ৩",
+    "instruction": "Node.js Backend শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "expressjs",
+    "title": "Express.js বাড়ির কাজ ১",
+    "instruction": "Express.js কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "expressjs",
+    "title": "Express.js বাড়ির কাজ ২",
+    "instruction": "Express.js ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "expressjs",
+    "title": "Express.js বাড়ির কাজ ৩",
+    "instruction": "Express.js শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "rest-api",
+    "title": "REST API বাড়ির কাজ ১",
+    "instruction": "REST API কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "rest-api",
+    "title": "REST API বাড়ির কাজ ২",
+    "instruction": "REST API ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "rest-api",
+    "title": "REST API বাড়ির কাজ ৩",
+    "instruction": "REST API শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "crud-api",
+    "title": "CRUD API বাড়ির কাজ ১",
+    "instruction": "CRUD API কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "crud-api",
+    "title": "CRUD API বাড়ির কাজ ২",
+    "instruction": "CRUD API ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "crud-api",
+    "title": "CRUD API বাড়ির কাজ ৩",
+    "instruction": "CRUD API শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cors",
+    "title": "CORS বাড়ির কাজ ১",
+    "instruction": "CORS কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "cors",
+    "title": "CORS বাড়ির কাজ ২",
+    "instruction": "CORS ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cors",
+    "title": "CORS বাড়ির কাজ ৩",
+    "instruction": "CORS শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodemon",
+    "title": "Nodemon বাড়ির কাজ ১",
+    "instruction": "Nodemon কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "nodemon",
+    "title": "Nodemon বাড়ির কাজ ২",
+    "instruction": "Nodemon ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodemon",
+    "title": "Nodemon বাড়ির কাজ ৩",
+    "instruction": "Nodemon শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "middleware",
+    "title": "Middleware বাড়ির কাজ ১",
+    "instruction": "Middleware কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "middleware",
+    "title": "Middleware বাড়ির কাজ ২",
+    "instruction": "Middleware ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "middleware",
+    "title": "Middleware বাড়ির কাজ ৩",
+    "instruction": "Middleware শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "routes",
+    "title": "Routes বাড়ির কাজ ১",
+    "instruction": "Routes কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "routes",
+    "title": "Routes বাড়ির কাজ ২",
+    "instruction": "Routes ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "routes",
+    "title": "Routes বাড়ির কাজ ৩",
+    "instruction": "Routes শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "controllers",
+    "title": "Controllers বাড়ির কাজ ১",
+    "instruction": "Controllers কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "controllers",
+    "title": "Controllers বাড়ির কাজ ২",
+    "instruction": "Controllers ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "controllers",
+    "title": "Controllers বাড়ির কাজ ৩",
+    "instruction": "Controllers শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "services",
+    "title": "Services বাড়ির কাজ ১",
+    "instruction": "Services কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "services",
+    "title": "Services বাড়ির কাজ ২",
+    "instruction": "Services ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "services",
+    "title": "Services বাড়ির কাজ ৩",
+    "instruction": "Services শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "modular-pattern",
+    "title": "Modular Pattern বাড়ির কাজ ১",
+    "instruction": "Modular Pattern কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "modular-pattern",
+    "title": "Modular Pattern বাড়ির কাজ ২",
+    "instruction": "Modular Pattern ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "modular-pattern",
+    "title": "Modular Pattern বাড়ির কাজ ৩",
+    "instruction": "Modular Pattern শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mvc-clean-architecture",
+    "title": "MVC/Clean Architecture বাড়ির কাজ ১",
+    "instruction": "MVC/Clean Architecture কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "mvc-clean-architecture",
+    "title": "MVC/Clean Architecture বাড়ির কাজ ২",
+    "instruction": "MVC/Clean Architecture ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mvc-clean-architecture",
+    "title": "MVC/Clean Architecture বাড়ির কাজ ৩",
+    "instruction": "MVC/Clean Architecture শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "api-endpoint-design",
+    "title": "API Endpoint Design বাড়ির কাজ ১",
+    "instruction": "API Endpoint Design কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "api-endpoint-design",
+    "title": "API Endpoint Design বাড়ির কাজ ২",
+    "instruction": "API Endpoint Design ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "api-endpoint-design",
+    "title": "API Endpoint Design বাড়ির কাজ ৩",
+    "instruction": "API Endpoint Design শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "environment-variables",
+    "title": "Environment Variables বাড়ির কাজ ১",
+    "instruction": "Environment Variables কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "environment-variables",
+    "title": "Environment Variables বাড়ির কাজ ২",
+    "instruction": "Environment Variables ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "environment-variables",
+    "title": "Environment Variables বাড়ির কাজ ৩",
+    "instruction": "Environment Variables শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb",
+    "title": "MongoDB বাড়ির কাজ ১",
+    "instruction": "MongoDB কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "mongodb",
+    "title": "MongoDB বাড়ির কাজ ২",
+    "instruction": "MongoDB ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb",
+    "title": "MongoDB বাড়ির কাজ ৩",
+    "instruction": "MongoDB শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-atlas",
+    "title": "MongoDB Atlas বাড়ির কাজ ১",
+    "instruction": "MongoDB Atlas কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "mongodb-atlas",
+    "title": "MongoDB Atlas বাড়ির কাজ ২",
+    "instruction": "MongoDB Atlas ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-atlas",
+    "title": "MongoDB Atlas বাড়ির কাজ ৩",
+    "instruction": "MongoDB Atlas শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongoose-odm",
+    "title": "Mongoose ODM বাড়ির কাজ ১",
+    "instruction": "Mongoose ODM কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "mongoose-odm",
+    "title": "Mongoose ODM বাড়ির কাজ ২",
+    "instruction": "Mongoose ODM ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongoose-odm",
+    "title": "Mongoose ODM বাড়ির কাজ ৩",
+    "instruction": "Mongoose ODM শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nosql-booster",
+    "title": "NoSQL Booster বাড়ির কাজ ১",
+    "instruction": "NoSQL Booster কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "nosql-booster",
+    "title": "NoSQL Booster বাড়ির কাজ ২",
+    "instruction": "NoSQL Booster ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nosql-booster",
+    "title": "NoSQL Booster বাড়ির কাজ ৩",
+    "instruction": "NoSQL Booster শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "objectid",
+    "title": "ObjectId বাড়ির কাজ ১",
+    "instruction": "ObjectId কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "objectid",
+    "title": "ObjectId বাড়ির কাজ ২",
+    "instruction": "ObjectId ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "objectid",
+    "title": "ObjectId বাড়ির কাজ ৩",
+    "instruction": "ObjectId শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-operators",
+    "title": "MongoDB Operators বাড়ির কাজ ১",
+    "instruction": "MongoDB Operators কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "mongodb-operators",
+    "title": "MongoDB Operators বাড়ির কাজ ২",
+    "instruction": "MongoDB Operators ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-operators",
+    "title": "MongoDB Operators বাড়ির কাজ ৩",
+    "instruction": "MongoDB Operators শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "betterauth",
+    "title": "BetterAuth বাড়ির কাজ ১",
+    "instruction": "BetterAuth কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "betterauth",
+    "title": "BetterAuth বাড়ির কাজ ২",
+    "instruction": "BetterAuth ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "betterauth",
+    "title": "BetterAuth বাড়ির কাজ ৩",
+    "instruction": "BetterAuth শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-adapter",
+    "title": "MongoDB Adapter বাড়ির কাজ ১",
+    "instruction": "MongoDB Adapter কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "mongodb-adapter",
+    "title": "MongoDB Adapter বাড়ির কাজ ২",
+    "instruction": "MongoDB Adapter ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-adapter",
+    "title": "MongoDB Adapter বাড়ির কাজ ৩",
+    "instruction": "MongoDB Adapter শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "jwt",
+    "title": "JWT বাড়ির কাজ ১",
+    "instruction": "JWT কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "jwt",
+    "title": "JWT বাড়ির কাজ ২",
+    "instruction": "JWT ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "jwt",
+    "title": "JWT বাড়ির কাজ ৩",
+    "instruction": "JWT শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "httponly-cookies",
+    "title": "HTTPOnly Cookies বাড়ির কাজ ১",
+    "instruction": "HTTPOnly Cookies কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "httponly-cookies",
+    "title": "HTTPOnly Cookies বাড়ির কাজ ২",
+    "instruction": "HTTPOnly Cookies ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "httponly-cookies",
+    "title": "HTTPOnly Cookies বাড়ির কাজ ৩",
+    "instruction": "HTTPOnly Cookies শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "session-management",
+    "title": "Session Management বাড়ির কাজ ১",
+    "instruction": "Session Management কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "session-management",
+    "title": "Session Management বাড়ির কাজ ২",
+    "instruction": "Session Management ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "session-management",
+    "title": "Session Management বাড়ির কাজ ৩",
+    "instruction": "Session Management শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-oauth",
+    "title": "Google OAuth বাড়ির কাজ ১",
+    "instruction": "Google OAuth কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "google-oauth",
+    "title": "Google OAuth বাড়ির কাজ ২",
+    "instruction": "Google OAuth ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-oauth",
+    "title": "Google OAuth বাড়ির কাজ ৩",
+    "instruction": "Google OAuth শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-oauth",
+    "title": "GitHub OAuth বাড়ির কাজ ১",
+    "instruction": "GitHub OAuth কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "github-oauth",
+    "title": "GitHub OAuth বাড়ির কাজ ২",
+    "instruction": "GitHub OAuth ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-oauth",
+    "title": "GitHub OAuth বাড়ির কাজ ৩",
+    "instruction": "GitHub OAuth শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "protected-route",
+    "title": "Protected Route বাড়ির কাজ ১",
+    "instruction": "Protected Route কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "protected-route",
+    "title": "Protected Route বাড়ির কাজ ২",
+    "instruction": "Protected Route ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "protected-route",
+    "title": "Protected Route বাড়ির কাজ ৩",
+    "instruction": "Protected Route শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "rbac",
+    "title": "RBAC বাড়ির কাজ ১",
+    "instruction": "RBAC কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "rbac",
+    "title": "RBAC বাড়ির কাজ ২",
+    "instruction": "RBAC ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "rbac",
+    "title": "RBAC বাড়ির কাজ ৩",
+    "instruction": "RBAC শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "password-reset",
+    "title": "Password Reset বাড়ির কাজ ১",
+    "instruction": "Password Reset কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "password-reset",
+    "title": "Password Reset বাড়ির কাজ ২",
+    "instruction": "Password Reset ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "password-reset",
+    "title": "Password Reset বাড়ির কাজ ৩",
+    "instruction": "Password Reset শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "email-verification",
+    "title": "Email Verification বাড়ির কাজ ১",
+    "instruction": "Email Verification কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "email-verification",
+    "title": "Email Verification বাড়ির কাজ ২",
+    "instruction": "Email Verification ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "email-verification",
+    "title": "Email Verification বাড়ির কাজ ৩",
+    "instruction": "Email Verification শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "security-review",
+    "title": "Security Review বাড়ির কাজ ১",
+    "instruction": "Security Review কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "security-review",
+    "title": "Security Review বাড়ির কাজ ২",
+    "instruction": "Security Review ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "security-review",
+    "title": "Security Review বাড়ির কাজ ৩",
+    "instruction": "Security Review শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe",
+    "title": "Stripe বাড়ির কাজ ১",
+    "instruction": "Stripe কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "stripe",
+    "title": "Stripe বাড়ির কাজ ২",
+    "instruction": "Stripe ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe",
+    "title": "Stripe বাড়ির কাজ ৩",
+    "instruction": "Stripe শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe-checkout",
+    "title": "Stripe Checkout বাড়ির কাজ ১",
+    "instruction": "Stripe Checkout কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "stripe-checkout",
+    "title": "Stripe Checkout বাড়ির কাজ ২",
+    "instruction": "Stripe Checkout ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe-checkout",
+    "title": "Stripe Checkout বাড়ির কাজ ৩",
+    "instruction": "Stripe Checkout শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe-webhooks",
+    "title": "Stripe Webhooks বাড়ির কাজ ১",
+    "instruction": "Stripe Webhooks কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "stripe-webhooks",
+    "title": "Stripe Webhooks বাড়ির কাজ ২",
+    "instruction": "Stripe Webhooks ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe-webhooks",
+    "title": "Stripe Webhooks বাড়ির কাজ ৩",
+    "instruction": "Stripe Webhooks শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sslcommerz",
+    "title": "SSLCommerz বাড়ির কাজ ১",
+    "instruction": "SSLCommerz কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "sslcommerz",
+    "title": "SSLCommerz বাড়ির কাজ ২",
+    "instruction": "SSLCommerz ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sslcommerz",
+    "title": "SSLCommerz বাড়ির কাজ ৩",
+    "instruction": "SSLCommerz শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sslcommerz-sandbox",
+    "title": "SSLCommerz Sandbox বাড়ির কাজ ১",
+    "instruction": "SSLCommerz Sandbox কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "sslcommerz-sandbox",
+    "title": "SSLCommerz Sandbox বাড়ির কাজ ২",
+    "instruction": "SSLCommerz Sandbox ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sslcommerz-sandbox",
+    "title": "SSLCommerz Sandbox বাড়ির কাজ ৩",
+    "instruction": "SSLCommerz Sandbox শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "introduction-to-testing",
+    "title": "Introduction to Testing বাড়ির কাজ ১",
+    "instruction": "Introduction to Testing কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "introduction-to-testing",
+    "title": "Introduction to Testing বাড়ির কাজ ২",
+    "instruction": "Introduction to Testing ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "introduction-to-testing",
+    "title": "Introduction to Testing বাড়ির কাজ ৩",
+    "instruction": "Introduction to Testing শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "uat",
+    "title": "UAT বাড়ির কাজ ১",
+    "instruction": "UAT কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "uat",
+    "title": "UAT বাড়ির কাজ ২",
+    "instruction": "UAT ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "uat",
+    "title": "UAT বাড়ির কাজ ৩",
+    "instruction": "UAT শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "end-to-end-testing",
+    "title": "End-to-End Testing বাড়ির কাজ ১",
+    "instruction": "End-to-End Testing কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "end-to-end-testing",
+    "title": "End-to-End Testing বাড়ির কাজ ২",
+    "instruction": "End-to-End Testing ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "end-to-end-testing",
+    "title": "End-to-End Testing বাড়ির কাজ ৩",
+    "instruction": "End-to-End Testing শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "automated-tests",
+    "title": "Automated Tests বাড়ির কাজ ১",
+    "instruction": "Automated Tests কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "automated-tests",
+    "title": "Automated Tests বাড়ির কাজ ২",
+    "instruction": "Automated Tests ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "automated-tests",
+    "title": "Automated Tests বাড়ির কাজ ৩",
+    "instruction": "Automated Tests শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-pages",
+    "title": "GitHub Pages বাড়ির কাজ ১",
+    "instruction": "GitHub Pages কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "github-pages",
+    "title": "GitHub Pages বাড়ির কাজ ২",
+    "instruction": "GitHub Pages ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-pages",
+    "title": "GitHub Pages বাড়ির কাজ ৩",
+    "instruction": "GitHub Pages শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "netlify",
+    "title": "Netlify বাড়ির কাজ ১",
+    "instruction": "Netlify কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "netlify",
+    "title": "Netlify বাড়ির কাজ ২",
+    "instruction": "Netlify ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "netlify",
+    "title": "Netlify বাড়ির কাজ ৩",
+    "instruction": "Netlify শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "surge",
+    "title": "Surge বাড়ির কাজ ১",
+    "instruction": "Surge কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "surge",
+    "title": "Surge বাড়ির কাজ ২",
+    "instruction": "Surge ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "surge",
+    "title": "Surge বাড়ির কাজ ৩",
+    "instruction": "Surge শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vercel",
+    "title": "Vercel বাড়ির কাজ ১",
+    "instruction": "Vercel কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "vercel",
+    "title": "Vercel বাড়ির কাজ ২",
+    "instruction": "Vercel ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vercel",
+    "title": "Vercel বাড়ির কাজ ৩",
+    "instruction": "Vercel শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "railway",
+    "title": "Railway বাড়ির কাজ ১",
+    "instruction": "Railway কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "railway",
+    "title": "Railway বাড়ির কাজ ২",
+    "instruction": "Railway ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "railway",
+    "title": "Railway বাড়ির কাজ ৩",
+    "instruction": "Railway শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "render",
+    "title": "Render বাড়ির কাজ ১",
+    "instruction": "Render কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "render",
+    "title": "Render বাড়ির কাজ ২",
+    "instruction": "Render ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "render",
+    "title": "Render বাড়ির কাজ ৩",
+    "instruction": "Render শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "custom-domain",
+    "title": "Custom Domain বাড়ির কাজ ১",
+    "instruction": "Custom Domain কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "custom-domain",
+    "title": "Custom Domain বাড়ির কাজ ২",
+    "instruction": "Custom Domain ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "custom-domain",
+    "title": "Custom Domain বাড়ির কাজ ৩",
+    "instruction": "Custom Domain শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ssl",
+    "title": "SSL বাড়ির কাজ ১",
+    "instruction": "SSL কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "ssl",
+    "title": "SSL বাড়ির কাজ ২",
+    "instruction": "SSL ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ssl",
+    "title": "SSL বাড়ির কাজ ৩",
+    "instruction": "SSL শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-mindset-development",
+    "title": "AI Mindset Development বাড়ির কাজ ১",
+    "instruction": "AI Mindset Development কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "ai-mindset-development",
+    "title": "AI Mindset Development বাড়ির কাজ ২",
+    "instruction": "AI Mindset Development ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-mindset-development",
+    "title": "AI Mindset Development বাড়ির কাজ ৩",
+    "instruction": "AI Mindset Development শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "prompt-engineering",
+    "title": "Prompt Engineering বাড়ির কাজ ১",
+    "instruction": "Prompt Engineering কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "prompt-engineering",
+    "title": "Prompt Engineering বাড়ির কাজ ২",
+    "instruction": "Prompt Engineering ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "prompt-engineering",
+    "title": "Prompt Engineering বাড়ির কাজ ৩",
+    "instruction": "Prompt Engineering শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "context-engineering",
+    "title": "Context Engineering বাড়ির কাজ ১",
+    "instruction": "Context Engineering কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "context-engineering",
+    "title": "Context Engineering বাড়ির কাজ ২",
+    "instruction": "Context Engineering ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "context-engineering",
+    "title": "Context Engineering বাড়ির কাজ ৩",
+    "instruction": "Context Engineering শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "prd",
+    "title": "PRD বাড়ির কাজ ১",
+    "instruction": "PRD কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "prd",
+    "title": "PRD বাড়ির কাজ ২",
+    "instruction": "PRD ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "prd",
+    "title": "PRD বাড়ির কাজ ৩",
+    "instruction": "PRD শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "requirement-analysis",
+    "title": "Requirement Analysis বাড়ির কাজ ১",
+    "instruction": "Requirement Analysis কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "requirement-analysis",
+    "title": "Requirement Analysis বাড়ির কাজ ২",
+    "instruction": "Requirement Analysis ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "requirement-analysis",
+    "title": "Requirement Analysis বাড়ির কাজ ৩",
+    "instruction": "Requirement Analysis শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "user-stories",
+    "title": "User Stories বাড়ির কাজ ১",
+    "instruction": "User Stories কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "user-stories",
+    "title": "User Stories বাড়ির কাজ ২",
+    "instruction": "User Stories ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "user-stories",
+    "title": "User Stories বাড়ির কাজ ৩",
+    "instruction": "User Stories শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "wireframing-prototyping-with-ai",
+    "title": "Wireframing/Prototyping with AI বাড়ির কাজ ১",
+    "instruction": "Wireframing/Prototyping with AI কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "wireframing-prototyping-with-ai",
+    "title": "Wireframing/Prototyping with AI বাড়ির কাজ ২",
+    "instruction": "Wireframing/Prototyping with AI ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "wireframing-prototyping-with-ai",
+    "title": "Wireframing/Prototyping with AI বাড়ির কাজ ৩",
+    "instruction": "Wireframing/Prototyping with AI শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cursor-ai",
+    "title": "Cursor AI বাড়ির কাজ ১",
+    "instruction": "Cursor AI কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "cursor-ai",
+    "title": "Cursor AI বাড়ির কাজ ২",
+    "instruction": "Cursor AI ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cursor-ai",
+    "title": "Cursor AI বাড়ির কাজ ৩",
+    "instruction": "Cursor AI শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cursor-agents",
+    "title": "Cursor Agents বাড়ির কাজ ১",
+    "instruction": "Cursor Agents কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "cursor-agents",
+    "title": "Cursor Agents বাড়ির কাজ ২",
+    "instruction": "Cursor Agents ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cursor-agents",
+    "title": "Cursor Agents বাড়ির কাজ ৩",
+    "instruction": "Cursor Agents শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "claude-code-cli",
+    "title": "Claude Code CLI বাড়ির কাজ ১",
+    "instruction": "Claude Code CLI কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "claude-code-cli",
+    "title": "Claude Code CLI বাড়ির কাজ ২",
+    "instruction": "Claude Code CLI ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "claude-code-cli",
+    "title": "Claude Code CLI বাড়ির কাজ ৩",
+    "instruction": "Claude Code CLI শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "claudemd",
+    "title": "CLAUDE.md বাড়ির কাজ ১",
+    "instruction": "CLAUDE.md কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "claudemd",
+    "title": "CLAUDE.md বাড়ির কাজ ২",
+    "instruction": "CLAUDE.md ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "claudemd",
+    "title": "CLAUDE.md বাড়ির কাজ ৩",
+    "instruction": "CLAUDE.md শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-copilot-pro",
+    "title": "GitHub Copilot Pro বাড়ির কাজ ১",
+    "instruction": "GitHub Copilot Pro কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "github-copilot-pro",
+    "title": "GitHub Copilot Pro বাড়ির কাজ ২",
+    "instruction": "GitHub Copilot Pro ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-copilot-pro",
+    "title": "GitHub Copilot Pro বাড়ির কাজ ৩",
+    "instruction": "GitHub Copilot Pro শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "coderabbit",
+    "title": "CodeRabbit বাড়ির কাজ ১",
+    "instruction": "CodeRabbit কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "coderabbit",
+    "title": "CodeRabbit বাড়ির কাজ ২",
+    "instruction": "CodeRabbit ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "coderabbit",
+    "title": "CodeRabbit বাড়ির কাজ ৩",
+    "instruction": "CodeRabbit শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ollama",
+    "title": "Ollama বাড়ির কাজ ১",
+    "instruction": "Ollama কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "ollama",
+    "title": "Ollama বাড়ির কাজ ২",
+    "instruction": "Ollama ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ollama",
+    "title": "Ollama বাড়ির কাজ ৩",
+    "instruction": "Ollama শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "opencode",
+    "title": "OpenCode বাড়ির কাজ ১",
+    "instruction": "OpenCode কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "opencode",
+    "title": "OpenCode বাড়ির কাজ ২",
+    "instruction": "OpenCode ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "opencode",
+    "title": "OpenCode বাড়ির কাজ ৩",
+    "instruction": "OpenCode শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "antigravity",
+    "title": "Antigravity বাড়ির কাজ ১",
+    "instruction": "Antigravity কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "antigravity",
+    "title": "Antigravity বাড়ির কাজ ২",
+    "instruction": "Antigravity ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "antigravity",
+    "title": "Antigravity বাড়ির কাজ ৩",
+    "instruction": "Antigravity শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "zai",
+    "title": "Z.ai বাড়ির কাজ ১",
+    "instruction": "Z.ai কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "zai",
+    "title": "Z.ai বাড়ির কাজ ২",
+    "instruction": "Z.ai ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "zai",
+    "title": "Z.ai বাড়ির কাজ ৩",
+    "instruction": "Z.ai শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "boltnew",
+    "title": "Bolt.new বাড়ির কাজ ১",
+    "instruction": "Bolt.new কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "boltnew",
+    "title": "Bolt.new বাড়ির কাজ ২",
+    "instruction": "Bolt.new ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "boltnew",
+    "title": "Bolt.new বাড়ির কাজ ৩",
+    "instruction": "Bolt.new শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "lovable",
+    "title": "Lovable বাড়ির কাজ ১",
+    "instruction": "Lovable কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "lovable",
+    "title": "Lovable বাড়ির কাজ ২",
+    "instruction": "Lovable ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "lovable",
+    "title": "Lovable বাড়ির কাজ ৩",
+    "instruction": "Lovable শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "v0-by-vercel",
+    "title": "V0 by Vercel বাড়ির কাজ ১",
+    "instruction": "V0 by Vercel কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "v0-by-vercel",
+    "title": "V0 by Vercel বাড়ির কাজ ২",
+    "instruction": "V0 by Vercel ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "v0-by-vercel",
+    "title": "V0 by Vercel বাড়ির কাজ ৩",
+    "instruction": "V0 by Vercel শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "figma-mcp",
+    "title": "Figma MCP বাড়ির কাজ ১",
+    "instruction": "Figma MCP কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "figma-mcp",
+    "title": "Figma MCP বাড়ির কাজ ২",
+    "instruction": "Figma MCP ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "figma-mcp",
+    "title": "Figma MCP বাড়ির কাজ ৩",
+    "instruction": "Figma MCP শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "figma-make",
+    "title": "Figma Make বাড়ির কাজ ১",
+    "instruction": "Figma Make কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "figma-make",
+    "title": "Figma Make বাড়ির কাজ ২",
+    "instruction": "Figma Make ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "figma-make",
+    "title": "Figma Make বাড়ির কাজ ৩",
+    "instruction": "Figma Make শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-mcp",
+    "title": "GitHub MCP বাড়ির কাজ ১",
+    "instruction": "GitHub MCP কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "github-mcp",
+    "title": "GitHub MCP বাড়ির কাজ ২",
+    "instruction": "GitHub MCP ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-mcp",
+    "title": "GitHub MCP বাড়ির কাজ ৩",
+    "instruction": "GitHub MCP শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "supabase-mcp",
+    "title": "Supabase MCP বাড়ির কাজ ১",
+    "instruction": "Supabase MCP কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "supabase-mcp",
+    "title": "Supabase MCP বাড়ির কাজ ২",
+    "instruction": "Supabase MCP ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "supabase-mcp",
+    "title": "Supabase MCP বাড়ির কাজ ৩",
+    "instruction": "Supabase MCP শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "browser-mcp",
+    "title": "Browser MCP বাড়ির কাজ ১",
+    "instruction": "Browser MCP কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "browser-mcp",
+    "title": "Browser MCP বাড়ির কাজ ২",
+    "instruction": "Browser MCP ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "browser-mcp",
+    "title": "Browser MCP বাড়ির কাজ ৩",
+    "instruction": "Browser MCP শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "firebase-studio",
+    "title": "Firebase Studio বাড়ির কাজ ১",
+    "instruction": "Firebase Studio কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "firebase-studio",
+    "title": "Firebase Studio বাড়ির কাজ ২",
+    "instruction": "Firebase Studio ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "firebase-studio",
+    "title": "Firebase Studio বাড়ির কাজ ৩",
+    "instruction": "Firebase Studio শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-ai-studio",
+    "title": "Google AI Studio বাড়ির কাজ ১",
+    "instruction": "Google AI Studio কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "google-ai-studio",
+    "title": "Google AI Studio বাড়ির কাজ ২",
+    "instruction": "Google AI Studio ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-ai-studio",
+    "title": "Google AI Studio বাড়ির কাজ ৩",
+    "instruction": "Google AI Studio শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "replit-ai-agent",
+    "title": "Replit AI Agent বাড়ির কাজ ১",
+    "instruction": "Replit AI Agent কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "replit-ai-agent",
+    "title": "Replit AI Agent বাড়ির কাজ ২",
+    "instruction": "Replit AI Agent ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "replit-ai-agent",
+    "title": "Replit AI Agent বাড়ির কাজ ৩",
+    "instruction": "Replit AI Agent শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "windsurf-ide",
+    "title": "Windsurf IDE বাড়ির কাজ ১",
+    "instruction": "Windsurf IDE কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "windsurf-ide",
+    "title": "Windsurf IDE বাড়ির কাজ ২",
+    "instruction": "Windsurf IDE ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "windsurf-ide",
+    "title": "Windsurf IDE বাড়ির কাজ ৩",
+    "instruction": "Windsurf IDE শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "parallel-ai-agents",
+    "title": "Parallel AI Agents বাড়ির কাজ ১",
+    "instruction": "Parallel AI Agents কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "parallel-ai-agents",
+    "title": "Parallel AI Agents বাড়ির কাজ ২",
+    "instruction": "Parallel AI Agents ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "parallel-ai-agents",
+    "title": "Parallel AI Agents বাড়ির কাজ ৩",
+    "instruction": "Parallel AI Agents শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git-worktrees",
+    "title": "Git Worktrees বাড়ির কাজ ১",
+    "instruction": "Git Worktrees কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "git-worktrees",
+    "title": "Git Worktrees বাড়ির কাজ ২",
+    "instruction": "Git Worktrees ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git-worktrees",
+    "title": "Git Worktrees বাড়ির কাজ ৩",
+    "instruction": "Git Worktrees শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-code-review",
+    "title": "AI Code Review বাড়ির কাজ ১",
+    "instruction": "AI Code Review কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "ai-code-review",
+    "title": "AI Code Review বাড়ির কাজ ২",
+    "instruction": "AI Code Review ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-code-review",
+    "title": "AI Code Review বাড়ির কাজ ৩",
+    "instruction": "AI Code Review শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-refactoring",
+    "title": "AI Refactoring বাড়ির কাজ ১",
+    "instruction": "AI Refactoring কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "ai-refactoring",
+    "title": "AI Refactoring বাড়ির কাজ ২",
+    "instruction": "AI Refactoring ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-refactoring",
+    "title": "AI Refactoring বাড়ির কাজ ৩",
+    "instruction": "AI Refactoring শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-security-review",
+    "title": "AI Security Review বাড়ির কাজ ১",
+    "instruction": "AI Security Review কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "ai-security-review",
+    "title": "AI Security Review বাড়ির কাজ ২",
+    "instruction": "AI Security Review ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-security-review",
+    "title": "AI Security Review বাড়ির কাজ ৩",
+    "instruction": "AI Security Review শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-integration-in-full-stack-project",
+    "title": "AI Integration in Full Stack Project বাড়ির কাজ ১",
+    "instruction": "AI Integration in Full Stack Project কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "ai-integration-in-full-stack-project",
+    "title": "AI Integration in Full Stack Project বাড়ির কাজ ২",
+    "instruction": "AI Integration in Full Stack Project ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-integration-in-full-stack-project",
+    "title": "AI Integration in Full Stack Project বাড়ির কাজ ৩",
+    "instruction": "AI Integration in Full Stack Project শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vibe-coding",
+    "title": "Vibe Coding বাড়ির কাজ ১",
+    "instruction": "Vibe Coding কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "vibe-coding",
+    "title": "Vibe Coding বাড়ির কাজ ২",
+    "instruction": "Vibe Coding ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vibe-coding",
+    "title": "Vibe Coding বাড়ির কাজ ৩",
+    "instruction": "Vibe Coding শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "api-integration",
+    "title": "API Integration বাড়ির কাজ ১",
+    "instruction": "API Integration কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "api-integration",
+    "title": "API Integration বাড়ির কাজ ২",
+    "instruction": "API Integration ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "api-integration",
+    "title": "API Integration বাড়ির কাজ ৩",
+    "instruction": "API Integration শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "modular-architecture",
+    "title": "Modular Architecture বাড়ির কাজ ১",
+    "instruction": "Modular Architecture কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "modular-architecture",
+    "title": "Modular Architecture বাড়ির কাজ ২",
+    "instruction": "Modular Architecture ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "modular-architecture",
+    "title": "Modular Architecture বাড়ির কাজ ৩",
+    "instruction": "Modular Architecture শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "feature-based-module-organization",
+    "title": "Feature-Based Module Organization বাড়ির কাজ ১",
+    "instruction": "Feature-Based Module Organization কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "feature-based-module-organization",
+    "title": "Feature-Based Module Organization বাড়ির কাজ ২",
+    "instruction": "Feature-Based Module Organization ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "feature-based-module-organization",
+    "title": "Feature-Based Module Organization বাড়ির কাজ ৩",
+    "instruction": "Feature-Based Module Organization শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "form-handling-and-validation",
+    "title": "Form Handling & Validation বাড়ির কাজ ১",
+    "instruction": "Form Handling & Validation কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "form-handling-and-validation",
+    "title": "Form Handling & Validation বাড়ির কাজ ২",
+    "instruction": "Form Handling & Validation ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "form-handling-and-validation",
+    "title": "Form Handling & Validation বাড়ির কাজ ৩",
+    "instruction": "Form Handling & Validation শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "error-handling",
+    "title": "Error Handling বাড়ির কাজ ১",
+    "instruction": "Error Handling কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "error-handling",
+    "title": "Error Handling বাড়ির কাজ ২",
+    "instruction": "Error Handling ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "error-handling",
+    "title": "Error Handling বাড়ির কাজ ৩",
+    "instruction": "Error Handling শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  },
+  {
+    "skillSlug": "performance-optimization",
+    "title": "Performance Optimization বাড়ির কাজ ১",
+    "instruction": "Performance Optimization কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+    "checkRules": {
+      "type": "text_min_length",
+      "minLength": 80
+    }
+  },
+  {
+    "skillSlug": "performance-optimization",
+    "title": "Performance Optimization বাড়ির কাজ ২",
+    "instruction": "Performance Optimization ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "steps_followed",
+        "result_submitted"
+      ]
+    }
+  },
+  {
+    "skillSlug": "performance-optimization",
+    "title": "Performance Optimization বাড়ির কাজ ৩",
+    "instruction": "Performance Optimization শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "confusion_written",
+        "ai_question_asked"
+      ]
+    }
+  }
+]

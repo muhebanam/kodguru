@@ -1,0 +1,16 @@
+{
+  "name": "kodguru",
+  "private": true,
+  "version": "0.2.0",
+  "description": "কোড গুরু — AI Learning Platform (Bengali, mobile-first PWA)",
+  "workspaces": ["packages/shared", "apps/api", "apps/web"],
+  "scripts": {
+    "build:shared": "npm run build --workspace=packages/shared",
+    "dev:api": "npm run build:shared && npm run dev --workspace=apps/api",
+    "dev:web": "npm run build:shared && npm run dev --workspace=apps/web",
+    "build": "npm run build:shared && npm run build --workspace=apps/api && npm run build --workspace=apps/web",
+    "typecheck": "npm run build:shared && npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "engines": { "node": ">=20" }
+}

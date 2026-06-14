@@ -1,0 +1,1850 @@
+[
+  {
+    "skillSlug": "vs-code",
+    "title": "VS Code Mini Project",
+    "instruction": "VS Code ব্যবহার করে “আমার প্রথম coding folder” তৈরি করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vs-code-terminal",
+    "title": "VS Code Terminal Mini Project",
+    "instruction": "VS Code Terminal ব্যবহার করে “আমার প্রথম coding folder” তৈরি করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodejs",
+    "title": "Node.js Mini Project",
+    "instruction": "Node.js ব্যবহার করে “আমার প্রথম coding folder” তৈরি করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git-scm",
+    "title": "Git SCM Mini Project",
+    "instruction": "Git SCM ব্যবহার করে “আমার প্রথম coding folder” তৈরি করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git",
+    "title": "Git Mini Project",
+    "instruction": "Git ব্যবহার করে “আমার প্রথম coding folder” তৈরি করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github",
+    "title": "GitHub Mini Project",
+    "instruction": "GitHub ব্যবহার করে “আমার প্রথম coding folder” তৈরি করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-desktop",
+    "title": "GitHub Desktop Mini Project",
+    "instruction": "GitHub Desktop ব্যবহার করে “আমার প্রথম coding folder” তৈরি করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "html5",
+    "title": "HTML5 Mini Project",
+    "instruction": "নিজের পরিচয়, ছবি, পছন্দ ও যোগাযোগ দিয়ে একটি simple পরিচয় পেজ বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "css3",
+    "title": "CSS3 Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "javascript",
+    "title": "JavaScript Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "es6",
+    "title": "ES6 Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "typescript",
+    "title": "TypeScript Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "jsx",
+    "title": "JSX Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "tailwind-css",
+    "title": "Tailwind CSS Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "daisyui",
+    "title": "DaisyUI Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "hero-ui",
+    "title": "Hero UI Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "shadcn",
+    "title": "ShadCN Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "font-awesome",
+    "title": "Font Awesome Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-fonts",
+    "title": "Google Fonts Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "flexbox",
+    "title": "Flexbox Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "css-grid",
+    "title": "CSS Grid Mini Project",
+    "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "react",
+    "title": "React Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vite",
+    "title": "Vite Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nextjs",
+    "title": "Next.js Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "react-toastify",
+    "title": "React Toastify Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "recharts",
+    "title": "Recharts Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "swiperjs",
+    "title": "Swiper.js Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "axios",
+    "title": "Axios Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "fetch-api",
+    "title": "Fetch API Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "date-fns",
+    "title": "Date-FNS Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "next-dynamic",
+    "title": "next/dynamic Mini Project",
+    "instruction": "তিনটি card দেখায় এমন একটি ছোট component/page বানান।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "dom",
+    "title": "DOM Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "bom",
+    "title": "BOM Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "window-object",
+    "title": "Window Object Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "location-api",
+    "title": "Location API Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "history-api",
+    "title": "History API Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "localstorage",
+    "title": "LocalStorage Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sessionstorage",
+    "title": "SessionStorage Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "promise",
+    "title": "Promise Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "async-await",
+    "title": "Async/Await Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "settimeout-setinterval-cleartimeout",
+    "title": "setTimeout/setInterval/clearTimeout Mini Project",
+    "instruction": "একটি ছোট হিসাব app বানান—ফলের দাম ও সংখ্যা দিলে মোট দাম দেখাবে।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodejs-backend",
+    "title": "Node.js Backend Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "expressjs",
+    "title": "Express.js Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "rest-api",
+    "title": "REST API Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "crud-api",
+    "title": "CRUD API Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cors",
+    "title": "CORS Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nodemon",
+    "title": "Nodemon Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "middleware",
+    "title": "Middleware Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "routes",
+    "title": "Routes Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "controllers",
+    "title": "Controllers Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "services",
+    "title": "Services Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "modular-pattern",
+    "title": "Modular Pattern Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mvc-clean-architecture",
+    "title": "MVC/Clean Architecture Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "api-endpoint-design",
+    "title": "API Endpoint Design Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "environment-variables",
+    "title": "Environment Variables Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb",
+    "title": "MongoDB Mini Project",
+    "instruction": "Student collection বানিয়ে নাম, বয়স, skill save ও read করার demo করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-atlas",
+    "title": "MongoDB Atlas Mini Project",
+    "instruction": "Student collection বানিয়ে নাম, বয়স, skill save ও read করার demo করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongoose-odm",
+    "title": "Mongoose ODM Mini Project",
+    "instruction": "Student collection বানিয়ে নাম, বয়স, skill save ও read করার demo করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "nosql-booster",
+    "title": "NoSQL Booster Mini Project",
+    "instruction": "Student collection বানিয়ে নাম, বয়স, skill save ও read করার demo করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "objectid",
+    "title": "ObjectId Mini Project",
+    "instruction": "Student collection বানিয়ে নাম, বয়স, skill save ও read করার demo করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-operators",
+    "title": "MongoDB Operators Mini Project",
+    "instruction": "Student collection বানিয়ে নাম, বয়স, skill save ও read করার demo করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "betterauth",
+    "title": "BetterAuth Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "mongodb-adapter",
+    "title": "MongoDB Adapter Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "jwt",
+    "title": "JWT Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "httponly-cookies",
+    "title": "HTTPOnly Cookies Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "session-management",
+    "title": "Session Management Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-oauth",
+    "title": "Google OAuth Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-oauth",
+    "title": "GitHub OAuth Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "protected-route",
+    "title": "Protected Route Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "rbac",
+    "title": "RBAC Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "password-reset",
+    "title": "Password Reset Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "email-verification",
+    "title": "Email Verification Mini Project",
+    "instruction": "একটি simple API বানান যা তিনজন student-এর data ফেরত দেয়।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "security-review",
+    "title": "Security Review Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe",
+    "title": "Stripe Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe-checkout",
+    "title": "Stripe Checkout Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "stripe-webhooks",
+    "title": "Stripe Webhooks Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sslcommerz",
+    "title": "SSLCommerz Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "sslcommerz-sandbox",
+    "title": "SSLCommerz Sandbox Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "introduction-to-testing",
+    "title": "Introduction to Testing Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "uat",
+    "title": "UAT Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "end-to-end-testing",
+    "title": "End-to-End Testing Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "automated-tests",
+    "title": "Automated Tests Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-pages",
+    "title": "GitHub Pages Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "netlify",
+    "title": "Netlify Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "surge",
+    "title": "Surge Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vercel",
+    "title": "Vercel Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "railway",
+    "title": "Railway Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "render",
+    "title": "Render Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "custom-domain",
+    "title": "Custom Domain Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ssl",
+    "title": "SSL Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-mindset-development",
+    "title": "AI Mindset Development Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "prompt-engineering",
+    "title": "Prompt Engineering Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "context-engineering",
+    "title": "Context Engineering Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "prd",
+    "title": "PRD Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "requirement-analysis",
+    "title": "Requirement Analysis Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "user-stories",
+    "title": "User Stories Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "wireframing-prototyping-with-ai",
+    "title": "Wireframing/Prototyping with AI Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cursor-ai",
+    "title": "Cursor AI Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "cursor-agents",
+    "title": "Cursor Agents Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "claude-code-cli",
+    "title": "Claude Code CLI Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "claudemd",
+    "title": "CLAUDE.md Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-copilot-pro",
+    "title": "GitHub Copilot Pro Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "coderabbit",
+    "title": "CodeRabbit Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ollama",
+    "title": "Ollama Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "opencode",
+    "title": "OpenCode Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "antigravity",
+    "title": "Antigravity Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "zai",
+    "title": "Z.ai Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "boltnew",
+    "title": "Bolt.new Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "lovable",
+    "title": "Lovable Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "v0-by-vercel",
+    "title": "V0 by Vercel Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "figma-mcp",
+    "title": "Figma MCP Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "figma-make",
+    "title": "Figma Make Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "github-mcp",
+    "title": "GitHub MCP Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "supabase-mcp",
+    "title": "Supabase MCP Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "browser-mcp",
+    "title": "Browser MCP Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "firebase-studio",
+    "title": "Firebase Studio Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "google-ai-studio",
+    "title": "Google AI Studio Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "replit-ai-agent",
+    "title": "Replit AI Agent Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "windsurf-ide",
+    "title": "Windsurf IDE Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "parallel-ai-agents",
+    "title": "Parallel AI Agents Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "git-worktrees",
+    "title": "Git Worktrees Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-code-review",
+    "title": "AI Code Review Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-refactoring",
+    "title": "AI Refactoring Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-security-review",
+    "title": "AI Security Review Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "ai-integration-in-full-stack-project",
+    "title": "AI Integration in Full Stack Project Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "vibe-coding",
+    "title": "Vibe Coding Mini Project",
+    "instruction": "AI Teacher-কে ৫টি ভালো prompt দিয়ে একই topic তিনভাবে বুঝিয়ে নিতে চেষ্টা করুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "api-integration",
+    "title": "API Integration Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "modular-architecture",
+    "title": "Modular Architecture Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "feature-based-module-organization",
+    "title": "Feature-Based Module Organization Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "form-handling-and-validation",
+    "title": "Form Handling & Validation Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "error-handling",
+    "title": "Error Handling Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  },
+  {
+    "skillSlug": "performance-optimization",
+    "title": "Performance Optimization Mini Project",
+    "instruction": "একটি ছোট project-এর checklist বানিয়ে test, bug, deploy step লিখুন।",
+    "checkRules": {
+      "type": "checklist",
+      "items": [
+        "planned",
+        "built",
+        "submitted",
+        "reflected"
+      ]
+    }
+  }
+]

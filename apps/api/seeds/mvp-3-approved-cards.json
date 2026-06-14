@@ -1,0 +1,672 @@
+[
+  {
+    "slug": "vs-code",
+    "title": "VS Code",
+    "banglaName": "ভি এস কোড",
+    "pronunciation": "ভি এস কোড",
+    "category": "tools",
+    "level": "beginner",
+    "simpleMeaning": "VS Code হলো কোড লেখার খাতা—যেখানে HTML, CSS, JavaScript সহ সব code লেখা ও গুছিয়ে রাখা যায়।",
+    "villageAnalogy": "যেমন একজন দোকানদার হিসাবের খাতা, কলম, ক্যালকুলেটর এক জায়গায় রাখে; developer VS Code-এ project-এর সব file গুছিয়ে রাখে।",
+    "whyLearn": "কোড শেখার প্রথম দরজা হলো editor ব্যবহার করা। VS Code না বুঝলে file বানানো, save করা, code দেখা—সবকিছু কঠিন লাগবে।",
+    "learningGoals": [
+      "VS Code কী কাজ করে নিজের ভাষায় বলতে পারবে",
+      "VS Code কোথায় ব্যবহার হয় তা ২টি উদাহরণে বুঝতে পারবে",
+      "VS Code দিয়ে একটি ছোট হাতে-কলমে কাজ করতে পারবে",
+      "VS Code শেখার সময় common mistake চিনতে পারবে"
+    ],
+    "lessonSteps": [
+      {
+        "order": 1,
+        "title": "VS Code কী",
+        "content": "VS Code হলো একটি code editor। এখানে আপনি project folder খুলবেন, file বানাবেন, code লিখবেন এবং save করবেন।"
+      },
+      {
+        "order": 2,
+        "title": "Install ও প্রথম setup",
+        "content": "Official installer দিয়ে VS Code install করুন। এরপর theme, font size, auto save ও format settings দেখে নিন।"
+      },
+      {
+        "order": 3,
+        "title": "Folder open করা",
+        "content": "প্রতিটি project আলাদা folder-এ রাখুন। VS Code-এ File → Open Folder দিয়ে project খুলুন।"
+      },
+      {
+        "order": 4,
+        "title": "File তৈরি ও save",
+        "content": "Explorer panel থেকে index.html, style.css, script.js file বানান। সবসময় অর্থপূর্ণ নাম ব্যবহার করুন।"
+      },
+      {
+        "order": 5,
+        "title": "Extension ব্যবহার",
+        "content": "Live Server, Prettier, ESLint, Tailwind IntelliSense—প্রয়োজন অনুযায়ী extension ব্যবহার করুন।"
+      },
+      {
+        "order": 6,
+        "title": "Terminal ও Git panel",
+        "content": "VS Code-এর ভিতর terminal খুলে command চালানো এবং Source Control panel দিয়ে Git change দেখা শিখুন।"
+      }
+    ],
+    "examples": [
+      "VS Code শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
+      "VS Code না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
+      "VS Code practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+    ],
+    "codeExamples": [
+      {
+        "title": "VS Code terminal command",
+        "language": "bash",
+        "code": "node -v\nnpm -v",
+        "explanation": "এই command দিয়ে Node.js এবং npm install আছে কিনা দেখা যায়।"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "VS Code না বুঝে শুধু copy-paste করা",
+        "whyHappens": "নতুন learner দ্রুত result দেখতে চায়, তাই line-by-line বুঝে না।",
+        "kindFix": "সমস্যা নেই। এবার code/step এক লাইন করে পড়ুন এবং নিজের ভাষায় বলুন এটা কী করছে।"
+      },
+      {
+        "mistake": "ইংরেজি শব্দ দেখে ভয় পাওয়া",
+        "whyHappens": "অনেক term নতুন লাগে এবং বাংলা meaning জানা থাকে না।",
+        "kindFix": "প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও ছোট মানে লিখে রাখুন।"
+      },
+      {
+        "mistake": "ছোট practice বাদ দিয়ে বড় project শুরু করা",
+        "whyHappens": "বড় কিছু বানানোর উত্তেজনায় basic step miss হয়।",
+        "kindFix": "আগে ১০ মিনিটের ছোট practice শেষ করুন, তারপর mini project ধরুন।"
+      }
+    ],
+    "practiceTasks": [
+      {
+        "title": "Project folder খুলুন",
+        "instruction": "Desktop বা Documents-এ kodguru-practice নামে folder বানিয়ে VS Code দিয়ে open করুন।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "folder_created",
+            "opened_in_vscode"
+          ]
+        }
+      },
+      {
+        "title": "তিনটি file বানান",
+        "instruction": "index.html, style.css, script.js নামে ৩টি file বানান।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "index.html",
+            "style.css",
+            "script.js"
+          ]
+        }
+      },
+      {
+        "title": "Live Server প্রস্তুত করুন",
+        "instruction": "Live Server extension install করে index.html open করার চেষ্টা করুন।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "extension_installed",
+            "preview_opened"
+          ]
+        }
+      }
+    ],
+    "homework": [
+      {
+        "title": "VS Code বাড়ির কাজ ১",
+        "instruction": "VS Code কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+        "checkRules": {
+          "type": "text_min_length",
+          "minLength": 80
+        }
+      },
+      {
+        "title": "VS Code বাড়ির কাজ ২",
+        "instruction": "VS Code ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "steps_followed",
+            "result_submitted"
+          ]
+        }
+      },
+      {
+        "title": "VS Code বাড়ির কাজ ৩",
+        "instruction": "VS Code শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "confusion_written",
+            "ai_question_asked"
+          ]
+        }
+      }
+    ],
+    "miniProject": {
+      "title": "VS Code Mini Project",
+      "instruction": "VS Code ব্যবহার করে “আমার প্রথম coding folder” তৈরি করুন।",
+      "checkRules": {
+        "type": "checklist",
+        "items": [
+          "planned",
+          "built",
+          "submitted",
+          "reflected"
+        ]
+      }
+    },
+    "quiz": [
+      {
+        "type": "mcq",
+        "question": "VS Code শেখার সবচেয়ে ভালো শুরু কোনটি?",
+        "options": [
+          "ধারণা বুঝে ছোট practice করা",
+          "শুধু copy-paste করা",
+          "ভুল লুকিয়ে রাখা",
+          "একদিনে সব শেষ করা"
+        ],
+        "correctAnswer": "ধারণা বুঝে ছোট practice করা",
+        "explanation": "শুরুতে ছোট practice করলে ভয় কমে এবং হাতে-কলমে শেখা হয়।"
+      },
+      {
+        "type": "true_false",
+        "question": "VS Code শেখার সময় ভুল করলে সেটা শেখার অংশ।",
+        "options": [
+          "সত্য",
+          "মিথ্যা"
+        ],
+        "correctAnswer": "সত্য",
+        "explanation": "ভুল দেখেই বোঝা যায় কোন জায়গা আরও practice দরকার।"
+      },
+      {
+        "type": "mcq",
+        "question": "VS Code বুঝতে না পারলে কী করা উচিত?",
+        "options": [
+          "AI Teacher-কে সহজ করে বুঝাতে বলা",
+          "চুপ থাকা",
+          "project ছেড়ে দেওয়া",
+          "সব delete করা"
+        ],
+        "correctAnswer": "AI Teacher-কে সহজ করে বুঝাতে বলা",
+        "explanation": "এই platform-এ “আরও সহজ করে বলো” mode আছে, সেটি ব্যবহার করুন।"
+      },
+      {
+        "type": "fill_blank",
+        "question": "VS Code শেখার পর একটি ছোট ______ করা দরকার।",
+        "correctAnswer": "practice",
+        "explanation": "প্রতিটি lesson শেষে practice করলে বিষয়টি মনে থাকে।"
+      },
+      {
+        "type": "mcq",
+        "question": "গ্রামের উদাহরণ কেন দেওয়া হয়?",
+        "options": [
+          "ভয় কমিয়ে সহজে বোঝানোর জন্য",
+          "সময় নষ্ট করার জন্য",
+          "শুধু মজা করার জন্য",
+          "code বাদ দেওয়ার জন্য"
+        ],
+        "correctAnswer": "ভয় কমিয়ে সহজে বোঝানোর জন্য",
+        "explanation": "পরিচিত উদাহরণ দিয়ে কঠিন concept সহজ হয়।"
+      }
+    ],
+    "aiTeacherGuide": "শিক্ষার্থীকে VS Code শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
+    "status": "approved",
+    "estimatedTime": 35,
+    "prerequisites": [],
+    "nextSkills": [
+      "vs-code-terminal"
+    ]
+  },
+  {
+    "slug": "html5",
+    "title": "HTML5",
+    "banglaName": "এইচটিএমএল ফাইভ",
+    "pronunciation": "এইচটিএমএল ফাইভ",
+    "category": "markup",
+    "level": "beginner",
+    "simpleMeaning": "HTML5 হলো ওয়েব পেজের হাড়-কাঠামো—কোথায় শিরোনাম, লেখা, ছবি, লিংক থাকবে তা বলে।",
+    "villageAnalogy": "ঘর বানানোর আগে বাঁশ, খুঁটি, দরজা, জানালা বসাতে হয়। HTML তেমনি website-এর ঘর তৈরি করে।",
+    "whyLearn": "প্রতিটি website HTML দিয়ে শুরু হয়। HTML জানলে আপনি নিজের পরিচয় পেজ, portfolio, form, table তৈরি করতে পারবেন।",
+    "learningGoals": [
+      "HTML5 কী কাজ করে নিজের ভাষায় বলতে পারবে",
+      "HTML5 কোথায় ব্যবহার হয় তা ২টি উদাহরণে বুঝতে পারবে",
+      "HTML5 দিয়ে একটি ছোট হাতে-কলমে কাজ করতে পারবে",
+      "HTML5 শেখার সময় common mistake চিনতে পারবে"
+    ],
+    "lessonSteps": [
+      {
+        "order": 1,
+        "title": "HTML document structure",
+        "content": "প্রতিটি HTML file সাধারণত `<!DOCTYPE html>`, `html`, `head`, `body` দিয়ে শুরু হয়।"
+      },
+      {
+        "order": 2,
+        "title": "Text ও heading",
+        "content": "`h1` থেকে `h6` heading, আর `p` paragraph দিয়ে লেখা সাজানো হয়।"
+      },
+      {
+        "order": 3,
+        "title": "Link, image, list",
+        "content": "`a` দিয়ে link, `img` দিয়ে ছবি, `ul/ol/li` দিয়ে list বানানো যায়।"
+      },
+      {
+        "order": 4,
+        "title": "Form ও input",
+        "content": "User-এর নাম, email, message নেওয়ার জন্য `form`, `input`, `textarea`, `button` ব্যবহার করা হয়।"
+      },
+      {
+        "order": 5,
+        "title": "Semantic HTML",
+        "content": "`header`, `nav`, `main`, `section`, `article`, `footer` ব্যবহার করলে page অর্থপূর্ণ ও SEO-friendly হয়।"
+      },
+      {
+        "order": 6,
+        "title": "নিজের পরিচয় পেজ",
+        "content": "সব tag মিলিয়ে নিজের নাম, ছবি, পছন্দ ও যোগাযোগ দিয়ে একটি পরিচয় পেজ বানান।"
+      }
+    ],
+    "examples": [
+      "HTML5 শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
+      "HTML5 না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
+      "HTML5 practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+    ],
+    "codeExamples": [
+      {
+        "title": "নিজের পরিচয় HTML",
+        "language": "html",
+        "code": "<h1>আমার নাম রহিম</h1>\n<p>আমি ওয়েব ডেভেলপমেন্ট শিখছি।</p>\n<a href=\"https://example.com\">আমার লিংক</a>",
+        "explanation": "এই code-এ h1 দিয়ে বড় শিরোনাম, p দিয়ে লেখা, আর a দিয়ে link দেখানো হয়েছে।"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "HTML5 না বুঝে শুধু copy-paste করা",
+        "whyHappens": "নতুন learner দ্রুত result দেখতে চায়, তাই line-by-line বুঝে না।",
+        "kindFix": "সমস্যা নেই। এবার code/step এক লাইন করে পড়ুন এবং নিজের ভাষায় বলুন এটা কী করছে।"
+      },
+      {
+        "mistake": "ইংরেজি শব্দ দেখে ভয় পাওয়া",
+        "whyHappens": "অনেক term নতুন লাগে এবং বাংলা meaning জানা থাকে না।",
+        "kindFix": "প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও ছোট মানে লিখে রাখুন।"
+      },
+      {
+        "mistake": "ছোট practice বাদ দিয়ে বড় project শুরু করা",
+        "whyHappens": "বড় কিছু বানানোর উত্তেজনায় basic step miss হয়।",
+        "kindFix": "আগে ১০ মিনিটের ছোট practice শেষ করুন, তারপর mini project ধরুন।"
+      }
+    ],
+    "practiceTasks": [
+      {
+        "title": "নিজের নাম দেখান",
+        "instruction": "একটি h1 tag দিয়ে নিজের নাম লিখুন এবং একটি p tag দিয়ে নিজের পরিচয় লিখুন।",
+        "checkRules": {
+          "type": "html_contains",
+          "tags": [
+            "h1",
+            "p"
+          ]
+        }
+      },
+      {
+        "title": "ছবি ও লিংক যোগ করুন",
+        "instruction": "একটি img tag এবং একটি a tag যোগ করুন।",
+        "checkRules": {
+          "type": "html_contains",
+          "tags": [
+            "img",
+            "a"
+          ]
+        }
+      },
+      {
+        "title": "ছোট form বানান",
+        "instruction": "নাম নেওয়ার input এবং submit button সহ একটি form বানান।",
+        "checkRules": {
+          "type": "html_contains",
+          "tags": [
+            "form",
+            "input",
+            "button"
+          ]
+        }
+      }
+    ],
+    "homework": [
+      {
+        "title": "HTML5 বাড়ির কাজ ১",
+        "instruction": "HTML5 কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+        "checkRules": {
+          "type": "text_min_length",
+          "minLength": 80
+        }
+      },
+      {
+        "title": "HTML5 বাড়ির কাজ ২",
+        "instruction": "HTML5 ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "steps_followed",
+            "result_submitted"
+          ]
+        }
+      },
+      {
+        "title": "HTML5 বাড়ির কাজ ৩",
+        "instruction": "HTML5 শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "confusion_written",
+            "ai_question_asked"
+          ]
+        }
+      }
+    ],
+    "miniProject": {
+      "title": "HTML5 Mini Project",
+      "instruction": "নিজের পরিচয়, ছবি, পছন্দ ও যোগাযোগ দিয়ে একটি simple পরিচয় পেজ বানান।",
+      "checkRules": {
+        "type": "checklist",
+        "items": [
+          "planned",
+          "built",
+          "submitted",
+          "reflected"
+        ]
+      }
+    },
+    "quiz": [
+      {
+        "type": "mcq",
+        "question": "HTML5 শেখার সবচেয়ে ভালো শুরু কোনটি?",
+        "options": [
+          "ধারণা বুঝে ছোট practice করা",
+          "শুধু copy-paste করা",
+          "ভুল লুকিয়ে রাখা",
+          "একদিনে সব শেষ করা"
+        ],
+        "correctAnswer": "ধারণা বুঝে ছোট practice করা",
+        "explanation": "শুরুতে ছোট practice করলে ভয় কমে এবং হাতে-কলমে শেখা হয়।"
+      },
+      {
+        "type": "true_false",
+        "question": "HTML5 শেখার সময় ভুল করলে সেটা শেখার অংশ।",
+        "options": [
+          "সত্য",
+          "মিথ্যা"
+        ],
+        "correctAnswer": "সত্য",
+        "explanation": "ভুল দেখেই বোঝা যায় কোন জায়গা আরও practice দরকার।"
+      },
+      {
+        "type": "mcq",
+        "question": "HTML5 বুঝতে না পারলে কী করা উচিত?",
+        "options": [
+          "AI Teacher-কে সহজ করে বুঝাতে বলা",
+          "চুপ থাকা",
+          "project ছেড়ে দেওয়া",
+          "সব delete করা"
+        ],
+        "correctAnswer": "AI Teacher-কে সহজ করে বুঝাতে বলা",
+        "explanation": "এই platform-এ “আরও সহজ করে বলো” mode আছে, সেটি ব্যবহার করুন।"
+      },
+      {
+        "type": "fill_blank",
+        "question": "HTML5 শেখার পর একটি ছোট ______ করা দরকার।",
+        "correctAnswer": "practice",
+        "explanation": "প্রতিটি lesson শেষে practice করলে বিষয়টি মনে থাকে।"
+      },
+      {
+        "type": "mcq",
+        "question": "গ্রামের উদাহরণ কেন দেওয়া হয়?",
+        "options": [
+          "ভয় কমিয়ে সহজে বোঝানোর জন্য",
+          "সময় নষ্ট করার জন্য",
+          "শুধু মজা করার জন্য",
+          "code বাদ দেওয়ার জন্য"
+        ],
+        "correctAnswer": "ভয় কমিয়ে সহজে বোঝানোর জন্য",
+        "explanation": "পরিচিত উদাহরণ দিয়ে কঠিন concept সহজ হয়।"
+      }
+    ],
+    "aiTeacherGuide": "শিক্ষার্থীকে HTML5 শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
+    "status": "approved",
+    "estimatedTime": 35,
+    "prerequisites": [
+      "github-desktop"
+    ],
+    "nextSkills": [
+      "css3"
+    ]
+  },
+  {
+    "slug": "css3",
+    "title": "CSS3",
+    "banglaName": "সিএসএস থ্রি",
+    "pronunciation": "সিএসএস থ্রি",
+    "category": "styling",
+    "level": "beginner",
+    "simpleMeaning": "CSS3 হলো ওয়েব পেজ সাজানোর ভাষা—রং, size, spacing, layout সুন্দর করে।",
+    "villageAnalogy": "HTML যদি ঘরের ইট-দেয়াল হয়, CSS হলো ঘরের রং, পর্দা, আলো আর সাজসজ্জা।",
+    "whyLearn": "CSS ছাড়া website দেখতে সাদামাটা হয়। CSS শিখলে mobile ও PC দুই জায়গায় সুন্দর design বানানো যাবে।",
+    "learningGoals": [
+      "CSS3 কী কাজ করে নিজের ভাষায় বলতে পারবে",
+      "CSS3 কোথায় ব্যবহার হয় তা ২টি উদাহরণে বুঝতে পারবে",
+      "CSS3 দিয়ে একটি ছোট হাতে-কলমে কাজ করতে পারবে",
+      "CSS3 শেখার সময় common mistake চিনতে পারবে"
+    ],
+    "lessonSteps": [
+      {
+        "order": 1,
+        "title": "CSS যুক্ত করা",
+        "content": "HTML-এ CSS inline, internal বা external file দিয়ে যুক্ত করা যায়। real project-এ external CSS ভালো।"
+      },
+      {
+        "order": 2,
+        "title": "Selector শেখা",
+        "content": "tag, class, id selector দিয়ে কোন element সাজাবেন তা বেছে নেওয়া হয়।"
+      },
+      {
+        "order": 3,
+        "title": "Color, font, background",
+        "content": "রং, font size, background, line height দিয়ে পেজ পড়তে আর দেখতে সুন্দর করা হয়।"
+      },
+      {
+        "order": 4,
+        "title": "Box model",
+        "content": "margin, padding, border, width, height—এগুলো element-এর জায়গা ও দূরত্ব ঠিক করে।"
+      },
+      {
+        "order": 5,
+        "title": "Layout",
+        "content": "Flexbox ও Grid দিয়ে card, navbar, hero section, gallery সুন্দরভাবে সাজানো যায়।"
+      },
+      {
+        "order": 6,
+        "title": "Responsive design",
+        "content": "mobile, tablet, PC—সব screen-এ যেন সুন্দর দেখায়, তাই media query ও responsive class ব্যবহার করা হয়।"
+      }
+    ],
+    "examples": [
+      "CSS3 শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
+      "CSS3 না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
+      "CSS3 practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+    ],
+    "codeExamples": [
+      {
+        "title": "সহজ CSS style",
+        "language": "css",
+        "code": "body {\n  background: #f5fff1;\n  font-family: sans-serif;\n}\n.card {\n  padding: 16px;\n  border-radius: 12px;\n}",
+        "explanation": "এই CSS body-এর background বদলায় এবং card-কে padding ও গোল corner দেয়।"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "CSS3 না বুঝে শুধু copy-paste করা",
+        "whyHappens": "নতুন learner দ্রুত result দেখতে চায়, তাই line-by-line বুঝে না।",
+        "kindFix": "সমস্যা নেই। এবার code/step এক লাইন করে পড়ুন এবং নিজের ভাষায় বলুন এটা কী করছে।"
+      },
+      {
+        "mistake": "ইংরেজি শব্দ দেখে ভয় পাওয়া",
+        "whyHappens": "অনেক term নতুন লাগে এবং বাংলা meaning জানা থাকে না।",
+        "kindFix": "প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও ছোট মানে লিখে রাখুন।"
+      },
+      {
+        "mistake": "ছোট practice বাদ দিয়ে বড় project শুরু করা",
+        "whyHappens": "বড় কিছু বানানোর উত্তেজনায় basic step miss হয়।",
+        "kindFix": "আগে ১০ মিনিটের ছোট practice শেষ করুন, তারপর mini project ধরুন।"
+      }
+    ],
+    "practiceTasks": [
+      {
+        "title": "রং বদলান",
+        "instruction": "body বা card-এর background এবং text color বদলান।",
+        "checkRules": {
+          "type": "css_contains",
+          "properties": [
+            "background",
+            "color"
+          ]
+        }
+      },
+      {
+        "title": "Box model practice",
+        "instruction": "একটি class selector ব্যবহার করে margin, padding, border দিন।",
+        "checkRules": {
+          "type": "css_contains",
+          "properties": [
+            "margin",
+            "padding",
+            "border"
+          ]
+        }
+      },
+      {
+        "title": "Card design",
+        "instruction": "একটি .card class বানিয়ে width, padding, border-radius দিন।",
+        "checkRules": {
+          "type": "css_contains",
+          "selectors": [
+            ".card"
+          ],
+          "properties": [
+            "padding",
+            "border-radius"
+          ]
+        }
+      }
+    ],
+    "homework": [
+      {
+        "title": "CSS3 বাড়ির কাজ ১",
+        "instruction": "CSS3 কী, কেন লাগে এবং একটি গ্রামের উদাহরণ দিয়ে ৫ লাইনে লিখুন।",
+        "checkRules": {
+          "type": "text_min_length",
+          "minLength": 80
+        }
+      },
+      {
+        "title": "CSS3 বাড়ির কাজ ২",
+        "instruction": "CSS3 ব্যবহার করে একটি ছোট demo/project step-by-step করুন এবং ফলাফল submit করুন।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "steps_followed",
+            "result_submitted"
+          ]
+        }
+      },
+      {
+        "title": "CSS3 বাড়ির কাজ ৩",
+        "instruction": "CSS3 শেখার সময় আপনি কোথায় আটকে গেছেন তা লিখুন, তারপর AI Teacher-কে প্রশ্ন করুন।",
+        "checkRules": {
+          "type": "checklist",
+          "items": [
+            "confusion_written",
+            "ai_question_asked"
+          ]
+        }
+      }
+    ],
+    "miniProject": {
+      "title": "CSS3 Mini Project",
+      "instruction": "একটি সুন্দর profile card design করুন, যেখানে নাম, ছবি, পছন্দ ও button থাকবে।",
+      "checkRules": {
+        "type": "checklist",
+        "items": [
+          "planned",
+          "built",
+          "submitted",
+          "reflected"
+        ]
+      }
+    },
+    "quiz": [
+      {
+        "type": "mcq",
+        "question": "CSS3 শেখার সবচেয়ে ভালো শুরু কোনটি?",
+        "options": [
+          "ধারণা বুঝে ছোট practice করা",
+          "শুধু copy-paste করা",
+          "ভুল লুকিয়ে রাখা",
+          "একদিনে সব শেষ করা"
+        ],
+        "correctAnswer": "ধারণা বুঝে ছোট practice করা",
+        "explanation": "শুরুতে ছোট practice করলে ভয় কমে এবং হাতে-কলমে শেখা হয়।"
+      },
+      {
+        "type": "true_false",
+        "question": "CSS3 শেখার সময় ভুল করলে সেটা শেখার অংশ।",
+        "options": [
+          "সত্য",
+          "মিথ্যা"
+        ],
+        "correctAnswer": "সত্য",
+        "explanation": "ভুল দেখেই বোঝা যায় কোন জায়গা আরও practice দরকার।"
+      },
+      {
+        "type": "mcq",
+        "question": "CSS3 বুঝতে না পারলে কী করা উচিত?",
+        "options": [
+          "AI Teacher-কে সহজ করে বুঝাতে বলা",
+          "চুপ থাকা",
+          "project ছেড়ে দেওয়া",
+          "সব delete করা"
+        ],
+        "correctAnswer": "AI Teacher-কে সহজ করে বুঝাতে বলা",
+        "explanation": "এই platform-এ “আরও সহজ করে বলো” mode আছে, সেটি ব্যবহার করুন।"
+      },
+      {
+        "type": "fill_blank",
+        "question": "CSS3 শেখার পর একটি ছোট ______ করা দরকার।",
+        "correctAnswer": "practice",
+        "explanation": "প্রতিটি lesson শেষে practice করলে বিষয়টি মনে থাকে।"
+      },
+      {
+        "type": "mcq",
+        "question": "গ্রামের উদাহরণ কেন দেওয়া হয়?",
+        "options": [
+          "ভয় কমিয়ে সহজে বোঝানোর জন্য",
+          "সময় নষ্ট করার জন্য",
+          "শুধু মজা করার জন্য",
+          "code বাদ দেওয়ার জন্য"
+        ],
+        "correctAnswer": "ভয় কমিয়ে সহজে বোঝানোর জন্য",
+        "explanation": "পরিচিত উদাহরণ দিয়ে কঠিন concept সহজ হয়।"
+      }
+    ],
+    "aiTeacherGuide": "শিক্ষার্থীকে CSS3 শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
+    "status": "approved",
+    "estimatedTime": 35,
+    "prerequisites": [
+      "html5"
+    ],
+    "nextSkills": [
+      "javascript"
+    ]
+  }
+]
