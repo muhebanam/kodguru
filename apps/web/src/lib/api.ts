@@ -2,10 +2,13 @@ import type { ApiResponse } from '@kodguru/shared';
 
 /**
  * API client — সব fetch এই একটি ফাংশন দিয়ে যাবে।
- * credentials: 'include' → Phase 2-এর HTTPOnly cookie auth-এর জন্য আবশ্যক।
+ * credentials: 'include' → HTTPOnly cookie auth-এর জন্য আবশ্যক।
+ *
+ * Default base = '/api' (same-origin)। Production-এ Vercel এটি Render-এ proxy করে,
+ * তাই cookie first-party (vercel.app) হিসেবে সেট হয় — third-party block এড়ানো যায়।
+ * Local dev-এ NEXT_PUBLIC_API_URL=http://localhost:4000/api দিন।
  */
-const BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:4000/api';
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? '/api';
 
 export async function api<T>(
   path: string,
