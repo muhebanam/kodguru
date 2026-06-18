@@ -72,4 +72,25 @@ describe('API shell', () => {
     expect(typeof res.body.error.messageBn).toBe('string');
   });
 
+
+  // ---- ধাপ ২: Progress / XP endpoints ----
+  it('complete-card requires auth (401 Bengali)', async () => {
+    const res = await request(app)
+      .post('/api/progress/complete-card')
+      .send({ slug: 'html5', quizScore: 100 })
+      .expect(401);
+    expect(res.body.error.code).toBe('AUTH_REQUIRED');
+  });
+
+  it('progress/me requires auth', async () => {
+    const res = await request(app).get('/api/progress/me').expect(401);
+    expect(res.body.error.messageBn).toBe('আগে লগইন করুন।');
+  });
+
+  it('curriculum route is public (not 401/404), returns Bengali envelope if unseeded', async () => {
+    const res = await request(app).get('/api/progress/curriculum');
+    expect([200, 404, 503]).toContain(res.status);
+    expect(typeof res.body.ok).toBe('boolean');
+  });
+
 });

@@ -8,6 +8,7 @@ import { api } from '@/lib/api';
 import { QuizRunner } from '@/components/lesson/quiz-runner';
 import { HomeworkRunner } from '@/components/lesson/homework-runner';
 import { AiTutorChat } from '@/components/lesson/ai-tutor-chat';
+import { CompleteCard } from '@/components/lesson/complete-card';
 import { ProgressStore } from '@/lib/progress.store';
 
 // CodeMirror ভারী — শুধু দরকারে (এই section দেখালে) লোড হবে, প্রতি পাঠে নয়
@@ -19,6 +20,7 @@ const CodeLab = dynamic(() => import('@/components/code/code-lab').then((m) => m
 export default function LessonViewerPage() {
   const params = useParams<{ slug: string }>();
   const [card, setCard] = useState<SkillCard | null>(null);
+  const [lastQuizScore, setLastQuizScore] = useState(0);
   const [message, setMessage] = useState('Lesson লোড হচ্ছে...');
 
   useEffect(() => {
@@ -129,7 +131,7 @@ export default function LessonViewerPage() {
         <section id="Quiz" className="rounded-card bg-white p-5">
           <h2 className="text-xl font-bold">Quiz</h2>
           <div className="mt-3">
-            <QuizRunner slug={card.slug} questions={card.quiz} />
+            <QuizRunner slug={card.slug} questions={card.quiz} onScore={setLastQuizScore} />
           </div>
         </section>
         {card.miniProject && (
@@ -138,6 +140,10 @@ export default function LessonViewerPage() {
             <h3 className="mt-3 font-bold text-chalk-yellow">{card.miniProject.title}</h3>
             <p className="mt-2 text-chalk-dust">{card.miniProject.instruction}</p>
           </section>
+        )}
+
+        {card.status === 'approved' && (
+          <CompleteCard slug={card.slug} quizScore={lastQuizScore} />
         )}
       </main>
 

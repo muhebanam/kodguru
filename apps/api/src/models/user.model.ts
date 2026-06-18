@@ -9,6 +9,11 @@ const userSchema = new mongoose.Schema(
     role: { type: String, enum: ROLES, default: 'student', index: true },
     xp: { type: Number, default: 0, min: 0 },
     badges: { type: [String], default: [] },
+    // gamification: streak ও bonus tracking
+    streakDays: { type: Number, default: 0, min: 0 },
+    lastActiveDay: { type: String, default: null }, // "YYYY-MM-DD"
+    completedModules: { type: [String], default: [] },   // bonus যাদের দেওয়া হয়েছে
+    completedMilestones: { type: [String], default: [] },
   },
   { timestamps: true },
 );
@@ -31,6 +36,10 @@ export type UserRecord = {
   role: 'student' | 'teacher' | 'admin';
   xp: number;
   badges: string[];
+  streakDays: number;
+  lastActiveDay: string | null;
+  completedModules: string[];
+  completedMilestones: string[];
   createdAt: Date;
   updatedAt: Date;
 };

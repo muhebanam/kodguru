@@ -79,6 +79,11 @@ const skillCardSchema = new mongoose.Schema(
     reviewNote: { type: String },
     reviewedBy: { type: String },
     reviewedAt: { type: String },
+    // curriculum/gamification (generate-curriculum থেকে)
+    scId: { type: String, index: true },
+    moduleId: { type: String, index: true },
+    milestoneId: { type: String, index: true },
+    globalOrder: { type: Number },
   },
   { timestamps: true },
 );

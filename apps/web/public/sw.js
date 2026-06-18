@@ -2,7 +2,7 @@
  * কোড গুরু service worker — hardened PWA cache.
  * Static/public assets cache হবে; API ও private/authenticated routes cache হবে না।
  */
-const CACHE_NAME = 'kodguru-shell-v2';
+const CACHE_NAME = 'kodguru-shell-v3';
 const SHELL_URLS = ['/', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png'];
 const PRIVATE_PREFIXES = ['/dashboard', '/admin', '/teacher', '/profile', '/settings', '/homework', '/practice', '/ai-tutor'];
 

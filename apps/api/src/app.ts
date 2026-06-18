@@ -10,6 +10,7 @@ import { authRouter } from './modules/auth/auth.routes.js';
 import { adminRouter } from './routes/admin.route.js';
 import { skillCardRouter } from './modules/skill-cards/skill-card.routes.js';
 import { aiRouter } from './modules/ai/ai.routes.js';
+import { progressRouter } from './modules/progress/progress.routes.js';
 
 /**
  * Express app — middleware-এর ক্রম গুরুত্বপূর্ণ:
@@ -38,6 +39,7 @@ export function createApp() {
   app.use('/api/admin', adminRouter);
   app.use('/api/skill-cards', skillCardRouter);
   app.use('/api/ai', aiRouter);
+  app.use('/api/progress', progressRouter);
 
   app.use(notFoundHandler);
   app.use(errorHandler);

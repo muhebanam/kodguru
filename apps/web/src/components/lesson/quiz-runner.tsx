@@ -12,9 +12,11 @@ import { ProgressStore } from '@/lib/progress.store';
 export function QuizRunner({
   slug,
   questions,
+  onScore,
 }: {
   slug: string;
   questions: SkillCard['quiz'];
+  onScore?: (score: number) => void;
 }) {
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submitted, setSubmitted] = useState(false);
@@ -31,6 +33,7 @@ export function QuizRunner({
   const submit = async () => {
     setSubmitted(true);
     await ProgressStore.update(slug, { quizScore: score });
+    onScore?.(score);
   };
 
   return (

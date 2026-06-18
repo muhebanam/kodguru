@@ -8,6 +8,7 @@ import { env } from '../config/env.js';
 import { logger } from '../utils/logger.js';
 import { UserModel } from '../models/user.model.js';
 import { SkillCardModel } from '../models/skill-card.model.js';
+import { CurriculumModel } from '../models/curriculum.model.js';
 
 /**
  * Seed script — `npm run seed`।
@@ -69,10 +70,36 @@ async function seedCards(): Promise<void> {
   logger.info(`✅ Skill card seed: ${inserted}টি যোগ, ${skipped}টি আগে থেকেই ছিল (${file})`);
 }
 
+
+async function seedCurriculum(): Promise<void> {
+  const path = join(apiRoot, 'seeds', 'curriculum.json');
+  let raw: any;
+  try {
+    raw = JSON.parse(readFileSync(path, 'utf8'));
+  } catch {
+    logger.warn('curriculum.json নেই — gamification mapping এড়ানো হলো। (npm run gen:curriculum চালান)');
+    return;
+  }
+  // 1) milestones/modules collection-এ রাখি
+  await CurriculumModel.findOneAndUpdate(
+    { key: 'main' },
+    { key: 'main', version: raw.version, milestones: raw.milestones, modules: raw.modules },
+    { upsert: true },
+  );
+  // 2) প্রতিটি কার্ডে scId/moduleId/milestoneId/globalOrder বসাই
+  let patched = 0;
+  for (const [slug, fields] of Object.entries(raw.cardPatch as Record<string, any>)) {
+    const r = await SkillCardModel.updateOne({ slug }, { $set: fields });
+    if (r.matchedCount > 0) patched++;
+  }
+  logger.info(`✅ Curriculum: ${raw.milestones.length} milestone, ${raw.modules.length} module; ${patched} কার্ডে mapping বসানো হলো`);
+}
+
 async function main(): Promise<void> {
   await connectDB();
   await seedAdmin();
   await seedCards();
+  await seedCurriculum();
   await disconnectDB();
   logger.info('🌱 Seed সম্পন্ন।');
   process.exit(0);

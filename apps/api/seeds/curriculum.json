@@ -1,0 +1,1929 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-18T09:15:29.989Z",
+  "totals": {
+    "milestones": 11,
+    "modules": 67,
+    "cards": 132
+  },
+  "milestones": [
+    {
+      "milestoneId": "M01",
+      "order": 1,
+      "titleBn": "প্রথম পদক্ষেপ",
+      "subtitleBn": "যন্ত্রপাতি ও পরিবেশ চেনা",
+      "moduleIds": [
+        "MOD01",
+        "MOD02",
+        "MOD03",
+        "MOD04"
+      ],
+      "bossProjectBn": "নিজের কম্পিউটারে VS Code, Node, Git সেট করে প্রথম GitHub repo বানাও ও push করো।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": null
+    },
+    {
+      "milestoneId": "M02",
+      "order": 2,
+      "titleBn": "ওয়েবের কাঠামো",
+      "subtitleBn": "HTML ও CSS-এর হাতেখড়ি",
+      "moduleIds": [
+        "MOD05",
+        "MOD06"
+      ],
+      "bossProjectBn": "HTML ও CSS দিয়ে নিজের একটি পরিচিতি পেজ (নাম, ছবি, লিংক) বানাও।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M01"
+    },
+    {
+      "milestoneId": "M03",
+      "order": 3,
+      "titleBn": "সুন্দর সাজানো",
+      "subtitleBn": "CSS framework ও UI",
+      "moduleIds": [
+        "MOD07",
+        "MOD08",
+        "MOD09"
+      ],
+      "bossProjectBn": "Tailwind দিয়ে একটি সুন্দর, মোবাইল-বান্ধব landing page বানাও।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M02"
+    },
+    {
+      "milestoneId": "M04",
+      "order": 4,
+      "titleBn": "জাভাস্ক্রিপ্টের প্রাণ",
+      "subtitleBn": "JavaScript ও ব্রাউজার",
+      "moduleIds": [
+        "MOD10",
+        "MOD11",
+        "MOD12",
+        "MOD13",
+        "MOD14",
+        "MOD15",
+        "MOD16"
+      ],
+      "bossProjectBn": "JavaScript দিয়ে একটি To-Do অ্যাপ বানাও যা localStorage-এ কাজ মনে রাখে।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M03"
+    },
+    {
+      "milestoneId": "M05",
+      "order": 5,
+      "titleBn": "React রাজ্য",
+      "subtitleBn": "React ও আধুনিক frontend",
+      "moduleIds": [
+        "MOD17",
+        "MOD18",
+        "MOD19",
+        "MOD20",
+        "MOD21",
+        "MOD22"
+      ],
+      "bossProjectBn": "React + Vite দিয়ে একটি আবহাওয়া বা মুভি সার্চ অ্যাপ বানাও (API থেকে data এনে)।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M04"
+    },
+    {
+      "milestoneId": "M06",
+      "order": 6,
+      "titleBn": "সার্ভারের গল্প",
+      "subtitleBn": "Node ও Express দিয়ে backend",
+      "moduleIds": [
+        "MOD23",
+        "MOD24",
+        "MOD25",
+        "MOD26",
+        "MOD27",
+        "MOD28",
+        "MOD29"
+      ],
+      "bossProjectBn": "Express দিয়ে একটি REST API বানাও — CRUD সহ, পরিষ্কার folder কাঠামোতে।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M05"
+    },
+    {
+      "milestoneId": "M07",
+      "order": 7,
+      "titleBn": "ডাটার ভাণ্ডার",
+      "subtitleBn": "MongoDB ও database",
+      "moduleIds": [
+        "MOD30",
+        "MOD31",
+        "MOD32",
+        "MOD33"
+      ],
+      "bossProjectBn": "MongoDB Atlas + Mongoose দিয়ে আগের API-তে আসল database যুক্ত করো।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M06"
+    },
+    {
+      "milestoneId": "M08",
+      "order": 8,
+      "titleBn": "নিরাপত্তা ও প্রবেশ",
+      "subtitleBn": "Auth, role ও security",
+      "moduleIds": [
+        "MOD34",
+        "MOD35",
+        "MOD36",
+        "MOD37",
+        "MOD38",
+        "MOD39"
+      ],
+      "bossProjectBn": "JWT + HTTPOnly cookie দিয়ে login/register বানাও, role আলাদা করো, route সুরক্ষিত করো।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M07"
+    },
+    {
+      "milestoneId": "M09",
+      "order": 9,
+      "titleBn": "টাকা ও পরীক্ষা",
+      "subtitleBn": "Payment ও testing",
+      "moduleIds": [
+        "MOD40",
+        "MOD41",
+        "MOD42",
+        "MOD43",
+        "MOD44",
+        "MOD45"
+      ],
+      "bossProjectBn": "Stripe বা SSLCommerz দিয়ে একটি checkout বানাও এবং তার জন্য কিছু test লেখো।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M08"
+    },
+    {
+      "milestoneId": "M10",
+      "order": 10,
+      "titleBn": "দুনিয়াতে প্রকাশ",
+      "subtitleBn": "Deployment ও engineering",
+      "moduleIds": [
+        "MOD46",
+        "MOD47",
+        "MOD48",
+        "MOD49",
+        "MOD50",
+        "MOD51",
+        "MOD52"
+      ],
+      "bossProjectBn": "নিজের একটি full-stack অ্যাপ Vercel + Atlas-এ লাইভ করো, custom domain সহ।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M09"
+    },
+    {
+      "milestoneId": "M11",
+      "order": 11,
+      "titleBn": "AI যুগের ডেভেলপার",
+      "subtitleBn": "AI দিয়ে দ্রুত ও স্মার্ট কোডিং",
+      "moduleIds": [
+        "MOD53",
+        "MOD54",
+        "MOD55",
+        "MOD56",
+        "MOD57",
+        "MOD58",
+        "MOD59",
+        "MOD60",
+        "MOD61",
+        "MOD62",
+        "MOD63",
+        "MOD64",
+        "MOD65",
+        "MOD66",
+        "MOD67"
+      ],
+      "bossProjectBn": "AI tool (Cursor/Claude Code) ব্যবহার করে একটি সম্পূর্ণ full-stack অ্যাপ বানাও ও deploy করো।",
+      "rewardXp": 200,
+      "unlockAfterMilestone": "M10"
+    }
+  ],
+  "modules": [
+    {
+      "moduleId": "MOD01",
+      "milestoneId": "M01",
+      "orderInMilestone": 1,
+      "titleBn": "প্রথম পদক্ষেপ — পর্ব 1",
+      "cardSlugs": [
+        "vs-code",
+        "vs-code-terminal"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": null
+    },
+    {
+      "moduleId": "MOD02",
+      "milestoneId": "M01",
+      "orderInMilestone": 2,
+      "titleBn": "প্রথম পদক্ষেপ — পর্ব 2",
+      "cardSlugs": [
+        "nodejs",
+        "git-scm"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD01"
+    },
+    {
+      "moduleId": "MOD03",
+      "milestoneId": "M01",
+      "orderInMilestone": 3,
+      "titleBn": "প্রথম পদক্ষেপ — পর্ব 3",
+      "cardSlugs": [
+        "git",
+        "github"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD02"
+    },
+    {
+      "moduleId": "MOD04",
+      "milestoneId": "M01",
+      "orderInMilestone": 4,
+      "titleBn": "প্রথম পদক্ষেপ — পর্ব 4",
+      "cardSlugs": [
+        "github-desktop"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD03"
+    },
+    {
+      "moduleId": "MOD05",
+      "milestoneId": "M02",
+      "orderInMilestone": 1,
+      "titleBn": "ওয়েবের কাঠামো — পর্ব 1",
+      "cardSlugs": [
+        "html5",
+        "css3"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD04"
+    },
+    {
+      "moduleId": "MOD06",
+      "milestoneId": "M02",
+      "orderInMilestone": 2,
+      "titleBn": "ওয়েবের কাঠামো — পর্ব 2",
+      "cardSlugs": [
+        "flexbox",
+        "css-grid"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD05"
+    },
+    {
+      "moduleId": "MOD07",
+      "milestoneId": "M03",
+      "orderInMilestone": 1,
+      "titleBn": "সুন্দর সাজানো — পর্ব 1",
+      "cardSlugs": [
+        "tailwind-css",
+        "daisyui"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD06"
+    },
+    {
+      "moduleId": "MOD08",
+      "milestoneId": "M03",
+      "orderInMilestone": 2,
+      "titleBn": "সুন্দর সাজানো — পর্ব 2",
+      "cardSlugs": [
+        "hero-ui",
+        "shadcn"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD07"
+    },
+    {
+      "moduleId": "MOD09",
+      "milestoneId": "M03",
+      "orderInMilestone": 3,
+      "titleBn": "সুন্দর সাজানো — পর্ব 3",
+      "cardSlugs": [
+        "font-awesome",
+        "google-fonts"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD08"
+    },
+    {
+      "moduleId": "MOD10",
+      "milestoneId": "M04",
+      "orderInMilestone": 1,
+      "titleBn": "জাভাস্ক্রিপ্টের প্রাণ — পর্ব 1",
+      "cardSlugs": [
+        "javascript",
+        "es6"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD09"
+    },
+    {
+      "moduleId": "MOD11",
+      "milestoneId": "M04",
+      "orderInMilestone": 2,
+      "titleBn": "জাভাস্ক্রিপ্টের প্রাণ — পর্ব 2",
+      "cardSlugs": [
+        "typescript",
+        "dom"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD10"
+    },
+    {
+      "moduleId": "MOD12",
+      "milestoneId": "M04",
+      "orderInMilestone": 3,
+      "titleBn": "জাভাস্ক্রিপ্টের প্রাণ — পর্ব 3",
+      "cardSlugs": [
+        "bom",
+        "window-object"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD11"
+    },
+    {
+      "moduleId": "MOD13",
+      "milestoneId": "M04",
+      "orderInMilestone": 4,
+      "titleBn": "জাভাস্ক্রিপ্টের প্রাণ — পর্ব 4",
+      "cardSlugs": [
+        "location-api",
+        "history-api"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD12"
+    },
+    {
+      "moduleId": "MOD14",
+      "milestoneId": "M04",
+      "orderInMilestone": 5,
+      "titleBn": "জাভাস্ক্রিপ্টের প্রাণ — পর্ব 5",
+      "cardSlugs": [
+        "localstorage",
+        "sessionstorage"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD13"
+    },
+    {
+      "moduleId": "MOD15",
+      "milestoneId": "M04",
+      "orderInMilestone": 6,
+      "titleBn": "জাভাস্ক্রিপ্টের প্রাণ — পর্ব 6",
+      "cardSlugs": [
+        "promise",
+        "async-await"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD14"
+    },
+    {
+      "moduleId": "MOD16",
+      "milestoneId": "M04",
+      "orderInMilestone": 7,
+      "titleBn": "জাভাস্ক্রিপ্টের প্রাণ — পর্ব 7",
+      "cardSlugs": [
+        "settimeout-setinterval-cleartimeout"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD15"
+    },
+    {
+      "moduleId": "MOD17",
+      "milestoneId": "M05",
+      "orderInMilestone": 1,
+      "titleBn": "React রাজ্য — পর্ব 1",
+      "cardSlugs": [
+        "react",
+        "vite"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD16"
+    },
+    {
+      "moduleId": "MOD18",
+      "milestoneId": "M05",
+      "orderInMilestone": 2,
+      "titleBn": "React রাজ্য — পর্ব 2",
+      "cardSlugs": [
+        "jsx",
+        "nextjs"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD17"
+    },
+    {
+      "moduleId": "MOD19",
+      "milestoneId": "M05",
+      "orderInMilestone": 3,
+      "titleBn": "React রাজ্য — পর্ব 3",
+      "cardSlugs": [
+        "react-toastify",
+        "recharts"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD18"
+    },
+    {
+      "moduleId": "MOD20",
+      "milestoneId": "M05",
+      "orderInMilestone": 4,
+      "titleBn": "React রাজ্য — পর্ব 4",
+      "cardSlugs": [
+        "swiperjs",
+        "axios"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD19"
+    },
+    {
+      "moduleId": "MOD21",
+      "milestoneId": "M05",
+      "orderInMilestone": 5,
+      "titleBn": "React রাজ্য — পর্ব 5",
+      "cardSlugs": [
+        "fetch-api",
+        "date-fns"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD20"
+    },
+    {
+      "moduleId": "MOD22",
+      "milestoneId": "M05",
+      "orderInMilestone": 6,
+      "titleBn": "React রাজ্য — পর্ব 6",
+      "cardSlugs": [
+        "next-dynamic"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD21"
+    },
+    {
+      "moduleId": "MOD23",
+      "milestoneId": "M06",
+      "orderInMilestone": 1,
+      "titleBn": "সার্ভারের গল্প — পর্ব 1",
+      "cardSlugs": [
+        "nodejs-backend",
+        "expressjs"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD22"
+    },
+    {
+      "moduleId": "MOD24",
+      "milestoneId": "M06",
+      "orderInMilestone": 2,
+      "titleBn": "সার্ভারের গল্প — পর্ব 2",
+      "cardSlugs": [
+        "rest-api",
+        "crud-api"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD23"
+    },
+    {
+      "moduleId": "MOD25",
+      "milestoneId": "M06",
+      "orderInMilestone": 3,
+      "titleBn": "সার্ভারের গল্প — পর্ব 3",
+      "cardSlugs": [
+        "cors",
+        "nodemon"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD24"
+    },
+    {
+      "moduleId": "MOD26",
+      "milestoneId": "M06",
+      "orderInMilestone": 4,
+      "titleBn": "সার্ভারের গল্প — পর্ব 4",
+      "cardSlugs": [
+        "middleware",
+        "routes"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD25"
+    },
+    {
+      "moduleId": "MOD27",
+      "milestoneId": "M06",
+      "orderInMilestone": 5,
+      "titleBn": "সার্ভারের গল্প — পর্ব 5",
+      "cardSlugs": [
+        "controllers",
+        "services"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD26"
+    },
+    {
+      "moduleId": "MOD28",
+      "milestoneId": "M06",
+      "orderInMilestone": 6,
+      "titleBn": "সার্ভারের গল্প — পর্ব 6",
+      "cardSlugs": [
+        "modular-pattern",
+        "mvc-clean-architecture"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD27"
+    },
+    {
+      "moduleId": "MOD29",
+      "milestoneId": "M06",
+      "orderInMilestone": 7,
+      "titleBn": "সার্ভারের গল্প — পর্ব 7",
+      "cardSlugs": [
+        "api-endpoint-design",
+        "environment-variables"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD28"
+    },
+    {
+      "moduleId": "MOD30",
+      "milestoneId": "M07",
+      "orderInMilestone": 1,
+      "titleBn": "ডাটার ভাণ্ডার — পর্ব 1",
+      "cardSlugs": [
+        "mongodb",
+        "mongodb-atlas"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD29"
+    },
+    {
+      "moduleId": "MOD31",
+      "milestoneId": "M07",
+      "orderInMilestone": 2,
+      "titleBn": "ডাটার ভাণ্ডার — পর্ব 2",
+      "cardSlugs": [
+        "mongoose-odm",
+        "nosql-booster"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD30"
+    },
+    {
+      "moduleId": "MOD32",
+      "milestoneId": "M07",
+      "orderInMilestone": 3,
+      "titleBn": "ডাটার ভাণ্ডার — পর্ব 3",
+      "cardSlugs": [
+        "objectid",
+        "mongodb-operators"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD31"
+    },
+    {
+      "moduleId": "MOD33",
+      "milestoneId": "M07",
+      "orderInMilestone": 4,
+      "titleBn": "ডাটার ভাণ্ডার — পর্ব 4",
+      "cardSlugs": [
+        "mongodb-adapter"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD32"
+    },
+    {
+      "moduleId": "MOD34",
+      "milestoneId": "M08",
+      "orderInMilestone": 1,
+      "titleBn": "নিরাপত্তা ও প্রবেশ — পর্ব 1",
+      "cardSlugs": [
+        "betterauth",
+        "jwt"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD33"
+    },
+    {
+      "moduleId": "MOD35",
+      "milestoneId": "M08",
+      "orderInMilestone": 2,
+      "titleBn": "নিরাপত্তা ও প্রবেশ — পর্ব 2",
+      "cardSlugs": [
+        "httponly-cookies",
+        "session-management"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD34"
+    },
+    {
+      "moduleId": "MOD36",
+      "milestoneId": "M08",
+      "orderInMilestone": 3,
+      "titleBn": "নিরাপত্তা ও প্রবেশ — পর্ব 3",
+      "cardSlugs": [
+        "google-oauth",
+        "github-oauth"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD35"
+    },
+    {
+      "moduleId": "MOD37",
+      "milestoneId": "M08",
+      "orderInMilestone": 4,
+      "titleBn": "নিরাপত্তা ও প্রবেশ — পর্ব 4",
+      "cardSlugs": [
+        "protected-route",
+        "rbac"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD36"
+    },
+    {
+      "moduleId": "MOD38",
+      "milestoneId": "M08",
+      "orderInMilestone": 5,
+      "titleBn": "নিরাপত্তা ও প্রবেশ — পর্ব 5",
+      "cardSlugs": [
+        "password-reset",
+        "email-verification"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD37"
+    },
+    {
+      "moduleId": "MOD39",
+      "milestoneId": "M08",
+      "orderInMilestone": 6,
+      "titleBn": "নিরাপত্তা ও প্রবেশ — পর্ব 6",
+      "cardSlugs": [
+        "security-review"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD38"
+    },
+    {
+      "moduleId": "MOD40",
+      "milestoneId": "M09",
+      "orderInMilestone": 1,
+      "titleBn": "টাকা ও পরীক্ষা — পর্ব 1",
+      "cardSlugs": [
+        "stripe",
+        "stripe-checkout"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD39"
+    },
+    {
+      "moduleId": "MOD41",
+      "milestoneId": "M09",
+      "orderInMilestone": 2,
+      "titleBn": "টাকা ও পরীক্ষা — পর্ব 2",
+      "cardSlugs": [
+        "stripe-webhooks",
+        "sslcommerz"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD40"
+    },
+    {
+      "moduleId": "MOD42",
+      "milestoneId": "M09",
+      "orderInMilestone": 3,
+      "titleBn": "টাকা ও পরীক্ষা — পর্ব 3",
+      "cardSlugs": [
+        "sslcommerz-sandbox",
+        "introduction-to-testing"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD41"
+    },
+    {
+      "moduleId": "MOD43",
+      "milestoneId": "M09",
+      "orderInMilestone": 4,
+      "titleBn": "টাকা ও পরীক্ষা — পর্ব 4",
+      "cardSlugs": [
+        "uat",
+        "end-to-end-testing"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD42"
+    },
+    {
+      "moduleId": "MOD44",
+      "milestoneId": "M09",
+      "orderInMilestone": 5,
+      "titleBn": "টাকা ও পরীক্ষা — পর্ব 5",
+      "cardSlugs": [
+        "automated-tests",
+        "error-handling"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD43"
+    },
+    {
+      "moduleId": "MOD45",
+      "milestoneId": "M09",
+      "orderInMilestone": 6,
+      "titleBn": "টাকা ও পরীক্ষা — পর্ব 6",
+      "cardSlugs": [
+        "form-handling-and-validation",
+        "performance-optimization"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD44"
+    },
+    {
+      "moduleId": "MOD46",
+      "milestoneId": "M10",
+      "orderInMilestone": 1,
+      "titleBn": "দুনিয়াতে প্রকাশ — পর্ব 1",
+      "cardSlugs": [
+        "github-pages",
+        "netlify",
+        "surge"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD45"
+    },
+    {
+      "moduleId": "MOD47",
+      "milestoneId": "M10",
+      "orderInMilestone": 2,
+      "titleBn": "দুনিয়াতে প্রকাশ — পর্ব 2",
+      "cardSlugs": [
+        "vercel",
+        "railway"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD46"
+    },
+    {
+      "moduleId": "MOD48",
+      "milestoneId": "M10",
+      "orderInMilestone": 3,
+      "titleBn": "দুনিয়াতে প্রকাশ — পর্ব 3",
+      "cardSlugs": [
+        "render",
+        "custom-domain"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD47"
+    },
+    {
+      "moduleId": "MOD49",
+      "milestoneId": "M10",
+      "orderInMilestone": 4,
+      "titleBn": "দুনিয়াতে প্রকাশ — পর্ব 4",
+      "cardSlugs": [
+        "ssl",
+        "prd"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD48"
+    },
+    {
+      "moduleId": "MOD50",
+      "milestoneId": "M10",
+      "orderInMilestone": 5,
+      "titleBn": "দুনিয়াতে প্রকাশ — পর্ব 5",
+      "cardSlugs": [
+        "requirement-analysis",
+        "user-stories"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD49"
+    },
+    {
+      "moduleId": "MOD51",
+      "milestoneId": "M10",
+      "orderInMilestone": 6,
+      "titleBn": "দুনিয়াতে প্রকাশ — পর্ব 6",
+      "cardSlugs": [
+        "git-worktrees",
+        "api-integration"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD50"
+    },
+    {
+      "moduleId": "MOD52",
+      "milestoneId": "M10",
+      "orderInMilestone": 7,
+      "titleBn": "দুনিয়াতে প্রকাশ — পর্ব 7",
+      "cardSlugs": [
+        "modular-architecture",
+        "feature-based-module-organization"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD51"
+    },
+    {
+      "moduleId": "MOD53",
+      "milestoneId": "M11",
+      "orderInMilestone": 1,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 1",
+      "cardSlugs": [
+        "ai-mindset-development",
+        "prompt-engineering",
+        "context-engineering"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD52"
+    },
+    {
+      "moduleId": "MOD54",
+      "milestoneId": "M11",
+      "orderInMilestone": 2,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 2",
+      "cardSlugs": [
+        "wireframing-prototyping-with-ai",
+        "cursor-ai",
+        "cursor-agents"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD53"
+    },
+    {
+      "moduleId": "MOD55",
+      "milestoneId": "M11",
+      "orderInMilestone": 3,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 3",
+      "cardSlugs": [
+        "claude-code-cli",
+        "claudemd"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD54"
+    },
+    {
+      "moduleId": "MOD56",
+      "milestoneId": "M11",
+      "orderInMilestone": 4,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 4",
+      "cardSlugs": [
+        "github-copilot-pro",
+        "coderabbit"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD55"
+    },
+    {
+      "moduleId": "MOD57",
+      "milestoneId": "M11",
+      "orderInMilestone": 5,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 5",
+      "cardSlugs": [
+        "ollama",
+        "opencode"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD56"
+    },
+    {
+      "moduleId": "MOD58",
+      "milestoneId": "M11",
+      "orderInMilestone": 6,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 6",
+      "cardSlugs": [
+        "antigravity",
+        "zai"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD57"
+    },
+    {
+      "moduleId": "MOD59",
+      "milestoneId": "M11",
+      "orderInMilestone": 7,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 7",
+      "cardSlugs": [
+        "boltnew",
+        "lovable"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD58"
+    },
+    {
+      "moduleId": "MOD60",
+      "milestoneId": "M11",
+      "orderInMilestone": 8,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 8",
+      "cardSlugs": [
+        "v0-by-vercel",
+        "figma-mcp"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD59"
+    },
+    {
+      "moduleId": "MOD61",
+      "milestoneId": "M11",
+      "orderInMilestone": 9,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 9",
+      "cardSlugs": [
+        "figma-make",
+        "github-mcp"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD60"
+    },
+    {
+      "moduleId": "MOD62",
+      "milestoneId": "M11",
+      "orderInMilestone": 10,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 10",
+      "cardSlugs": [
+        "supabase-mcp",
+        "browser-mcp"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD61"
+    },
+    {
+      "moduleId": "MOD63",
+      "milestoneId": "M11",
+      "orderInMilestone": 11,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 11",
+      "cardSlugs": [
+        "firebase-studio",
+        "google-ai-studio"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD62"
+    },
+    {
+      "moduleId": "MOD64",
+      "milestoneId": "M11",
+      "orderInMilestone": 12,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 12",
+      "cardSlugs": [
+        "replit-ai-agent",
+        "windsurf-ide"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD63"
+    },
+    {
+      "moduleId": "MOD65",
+      "milestoneId": "M11",
+      "orderInMilestone": 13,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 13",
+      "cardSlugs": [
+        "parallel-ai-agents",
+        "ai-code-review"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD64"
+    },
+    {
+      "moduleId": "MOD66",
+      "milestoneId": "M11",
+      "orderInMilestone": 14,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 14",
+      "cardSlugs": [
+        "ai-refactoring",
+        "ai-security-review"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD65"
+    },
+    {
+      "moduleId": "MOD67",
+      "milestoneId": "M11",
+      "orderInMilestone": 15,
+      "titleBn": "AI যুগের ডেভেলপার — পর্ব 15",
+      "cardSlugs": [
+        "ai-integration-in-full-stack-project",
+        "vibe-coding"
+      ],
+      "bonusXp": 50,
+      "unlockAfterModule": "MOD66"
+    }
+  ],
+  "cardPatch": {
+    "vs-code": {
+      "scId": "SC001",
+      "milestoneId": "M01",
+      "moduleId": "MOD01",
+      "orderInModule": 1,
+      "globalOrder": 1
+    },
+    "vs-code-terminal": {
+      "scId": "SC002",
+      "milestoneId": "M01",
+      "moduleId": "MOD01",
+      "orderInModule": 2,
+      "globalOrder": 2
+    },
+    "nodejs": {
+      "scId": "SC003",
+      "milestoneId": "M01",
+      "moduleId": "MOD02",
+      "orderInModule": 1,
+      "globalOrder": 3
+    },
+    "git-scm": {
+      "scId": "SC004",
+      "milestoneId": "M01",
+      "moduleId": "MOD02",
+      "orderInModule": 2,
+      "globalOrder": 4
+    },
+    "git": {
+      "scId": "SC005",
+      "milestoneId": "M01",
+      "moduleId": "MOD03",
+      "orderInModule": 1,
+      "globalOrder": 5
+    },
+    "github": {
+      "scId": "SC006",
+      "milestoneId": "M01",
+      "moduleId": "MOD03",
+      "orderInModule": 2,
+      "globalOrder": 6
+    },
+    "github-desktop": {
+      "scId": "SC007",
+      "milestoneId": "M01",
+      "moduleId": "MOD04",
+      "orderInModule": 1,
+      "globalOrder": 7
+    },
+    "html5": {
+      "scId": "SC008",
+      "milestoneId": "M02",
+      "moduleId": "MOD05",
+      "orderInModule": 1,
+      "globalOrder": 8
+    },
+    "css3": {
+      "scId": "SC009",
+      "milestoneId": "M02",
+      "moduleId": "MOD05",
+      "orderInModule": 2,
+      "globalOrder": 9
+    },
+    "flexbox": {
+      "scId": "SC010",
+      "milestoneId": "M02",
+      "moduleId": "MOD06",
+      "orderInModule": 1,
+      "globalOrder": 10
+    },
+    "css-grid": {
+      "scId": "SC011",
+      "milestoneId": "M02",
+      "moduleId": "MOD06",
+      "orderInModule": 2,
+      "globalOrder": 11
+    },
+    "tailwind-css": {
+      "scId": "SC012",
+      "milestoneId": "M03",
+      "moduleId": "MOD07",
+      "orderInModule": 1,
+      "globalOrder": 12
+    },
+    "daisyui": {
+      "scId": "SC013",
+      "milestoneId": "M03",
+      "moduleId": "MOD07",
+      "orderInModule": 2,
+      "globalOrder": 13
+    },
+    "hero-ui": {
+      "scId": "SC014",
+      "milestoneId": "M03",
+      "moduleId": "MOD08",
+      "orderInModule": 1,
+      "globalOrder": 14
+    },
+    "shadcn": {
+      "scId": "SC015",
+      "milestoneId": "M03",
+      "moduleId": "MOD08",
+      "orderInModule": 2,
+      "globalOrder": 15
+    },
+    "font-awesome": {
+      "scId": "SC016",
+      "milestoneId": "M03",
+      "moduleId": "MOD09",
+      "orderInModule": 1,
+      "globalOrder": 16
+    },
+    "google-fonts": {
+      "scId": "SC017",
+      "milestoneId": "M03",
+      "moduleId": "MOD09",
+      "orderInModule": 2,
+      "globalOrder": 17
+    },
+    "javascript": {
+      "scId": "SC018",
+      "milestoneId": "M04",
+      "moduleId": "MOD10",
+      "orderInModule": 1,
+      "globalOrder": 18
+    },
+    "es6": {
+      "scId": "SC019",
+      "milestoneId": "M04",
+      "moduleId": "MOD10",
+      "orderInModule": 2,
+      "globalOrder": 19
+    },
+    "typescript": {
+      "scId": "SC020",
+      "milestoneId": "M04",
+      "moduleId": "MOD11",
+      "orderInModule": 1,
+      "globalOrder": 20
+    },
+    "dom": {
+      "scId": "SC021",
+      "milestoneId": "M04",
+      "moduleId": "MOD11",
+      "orderInModule": 2,
+      "globalOrder": 21
+    },
+    "bom": {
+      "scId": "SC022",
+      "milestoneId": "M04",
+      "moduleId": "MOD12",
+      "orderInModule": 1,
+      "globalOrder": 22
+    },
+    "window-object": {
+      "scId": "SC023",
+      "milestoneId": "M04",
+      "moduleId": "MOD12",
+      "orderInModule": 2,
+      "globalOrder": 23
+    },
+    "location-api": {
+      "scId": "SC024",
+      "milestoneId": "M04",
+      "moduleId": "MOD13",
+      "orderInModule": 1,
+      "globalOrder": 24
+    },
+    "history-api": {
+      "scId": "SC025",
+      "milestoneId": "M04",
+      "moduleId": "MOD13",
+      "orderInModule": 2,
+      "globalOrder": 25
+    },
+    "localstorage": {
+      "scId": "SC026",
+      "milestoneId": "M04",
+      "moduleId": "MOD14",
+      "orderInModule": 1,
+      "globalOrder": 26
+    },
+    "sessionstorage": {
+      "scId": "SC027",
+      "milestoneId": "M04",
+      "moduleId": "MOD14",
+      "orderInModule": 2,
+      "globalOrder": 27
+    },
+    "promise": {
+      "scId": "SC028",
+      "milestoneId": "M04",
+      "moduleId": "MOD15",
+      "orderInModule": 1,
+      "globalOrder": 28
+    },
+    "async-await": {
+      "scId": "SC029",
+      "milestoneId": "M04",
+      "moduleId": "MOD15",
+      "orderInModule": 2,
+      "globalOrder": 29
+    },
+    "settimeout-setinterval-cleartimeout": {
+      "scId": "SC030",
+      "milestoneId": "M04",
+      "moduleId": "MOD16",
+      "orderInModule": 1,
+      "globalOrder": 30
+    },
+    "react": {
+      "scId": "SC031",
+      "milestoneId": "M05",
+      "moduleId": "MOD17",
+      "orderInModule": 1,
+      "globalOrder": 31
+    },
+    "vite": {
+      "scId": "SC032",
+      "milestoneId": "M05",
+      "moduleId": "MOD17",
+      "orderInModule": 2,
+      "globalOrder": 32
+    },
+    "jsx": {
+      "scId": "SC033",
+      "milestoneId": "M05",
+      "moduleId": "MOD18",
+      "orderInModule": 1,
+      "globalOrder": 33
+    },
+    "nextjs": {
+      "scId": "SC034",
+      "milestoneId": "M05",
+      "moduleId": "MOD18",
+      "orderInModule": 2,
+      "globalOrder": 34
+    },
+    "react-toastify": {
+      "scId": "SC035",
+      "milestoneId": "M05",
+      "moduleId": "MOD19",
+      "orderInModule": 1,
+      "globalOrder": 35
+    },
+    "recharts": {
+      "scId": "SC036",
+      "milestoneId": "M05",
+      "moduleId": "MOD19",
+      "orderInModule": 2,
+      "globalOrder": 36
+    },
+    "swiperjs": {
+      "scId": "SC037",
+      "milestoneId": "M05",
+      "moduleId": "MOD20",
+      "orderInModule": 1,
+      "globalOrder": 37
+    },
+    "axios": {
+      "scId": "SC038",
+      "milestoneId": "M05",
+      "moduleId": "MOD20",
+      "orderInModule": 2,
+      "globalOrder": 38
+    },
+    "fetch-api": {
+      "scId": "SC039",
+      "milestoneId": "M05",
+      "moduleId": "MOD21",
+      "orderInModule": 1,
+      "globalOrder": 39
+    },
+    "date-fns": {
+      "scId": "SC040",
+      "milestoneId": "M05",
+      "moduleId": "MOD21",
+      "orderInModule": 2,
+      "globalOrder": 40
+    },
+    "next-dynamic": {
+      "scId": "SC041",
+      "milestoneId": "M05",
+      "moduleId": "MOD22",
+      "orderInModule": 1,
+      "globalOrder": 41
+    },
+    "nodejs-backend": {
+      "scId": "SC042",
+      "milestoneId": "M06",
+      "moduleId": "MOD23",
+      "orderInModule": 1,
+      "globalOrder": 42
+    },
+    "expressjs": {
+      "scId": "SC043",
+      "milestoneId": "M06",
+      "moduleId": "MOD23",
+      "orderInModule": 2,
+      "globalOrder": 43
+    },
+    "rest-api": {
+      "scId": "SC044",
+      "milestoneId": "M06",
+      "moduleId": "MOD24",
+      "orderInModule": 1,
+      "globalOrder": 44
+    },
+    "crud-api": {
+      "scId": "SC045",
+      "milestoneId": "M06",
+      "moduleId": "MOD24",
+      "orderInModule": 2,
+      "globalOrder": 45
+    },
+    "cors": {
+      "scId": "SC046",
+      "milestoneId": "M06",
+      "moduleId": "MOD25",
+      "orderInModule": 1,
+      "globalOrder": 46
+    },
+    "nodemon": {
+      "scId": "SC047",
+      "milestoneId": "M06",
+      "moduleId": "MOD25",
+      "orderInModule": 2,
+      "globalOrder": 47
+    },
+    "middleware": {
+      "scId": "SC048",
+      "milestoneId": "M06",
+      "moduleId": "MOD26",
+      "orderInModule": 1,
+      "globalOrder": 48
+    },
+    "routes": {
+      "scId": "SC049",
+      "milestoneId": "M06",
+      "moduleId": "MOD26",
+      "orderInModule": 2,
+      "globalOrder": 49
+    },
+    "controllers": {
+      "scId": "SC050",
+      "milestoneId": "M06",
+      "moduleId": "MOD27",
+      "orderInModule": 1,
+      "globalOrder": 50
+    },
+    "services": {
+      "scId": "SC051",
+      "milestoneId": "M06",
+      "moduleId": "MOD27",
+      "orderInModule": 2,
+      "globalOrder": 51
+    },
+    "modular-pattern": {
+      "scId": "SC052",
+      "milestoneId": "M06",
+      "moduleId": "MOD28",
+      "orderInModule": 1,
+      "globalOrder": 52
+    },
+    "mvc-clean-architecture": {
+      "scId": "SC053",
+      "milestoneId": "M06",
+      "moduleId": "MOD28",
+      "orderInModule": 2,
+      "globalOrder": 53
+    },
+    "api-endpoint-design": {
+      "scId": "SC054",
+      "milestoneId": "M06",
+      "moduleId": "MOD29",
+      "orderInModule": 1,
+      "globalOrder": 54
+    },
+    "environment-variables": {
+      "scId": "SC055",
+      "milestoneId": "M06",
+      "moduleId": "MOD29",
+      "orderInModule": 2,
+      "globalOrder": 55
+    },
+    "mongodb": {
+      "scId": "SC056",
+      "milestoneId": "M07",
+      "moduleId": "MOD30",
+      "orderInModule": 1,
+      "globalOrder": 56
+    },
+    "mongodb-atlas": {
+      "scId": "SC057",
+      "milestoneId": "M07",
+      "moduleId": "MOD30",
+      "orderInModule": 2,
+      "globalOrder": 57
+    },
+    "mongoose-odm": {
+      "scId": "SC058",
+      "milestoneId": "M07",
+      "moduleId": "MOD31",
+      "orderInModule": 1,
+      "globalOrder": 58
+    },
+    "nosql-booster": {
+      "scId": "SC059",
+      "milestoneId": "M07",
+      "moduleId": "MOD31",
+      "orderInModule": 2,
+      "globalOrder": 59
+    },
+    "objectid": {
+      "scId": "SC060",
+      "milestoneId": "M07",
+      "moduleId": "MOD32",
+      "orderInModule": 1,
+      "globalOrder": 60
+    },
+    "mongodb-operators": {
+      "scId": "SC061",
+      "milestoneId": "M07",
+      "moduleId": "MOD32",
+      "orderInModule": 2,
+      "globalOrder": 61
+    },
+    "mongodb-adapter": {
+      "scId": "SC062",
+      "milestoneId": "M07",
+      "moduleId": "MOD33",
+      "orderInModule": 1,
+      "globalOrder": 62
+    },
+    "betterauth": {
+      "scId": "SC063",
+      "milestoneId": "M08",
+      "moduleId": "MOD34",
+      "orderInModule": 1,
+      "globalOrder": 63
+    },
+    "jwt": {
+      "scId": "SC064",
+      "milestoneId": "M08",
+      "moduleId": "MOD34",
+      "orderInModule": 2,
+      "globalOrder": 64
+    },
+    "httponly-cookies": {
+      "scId": "SC065",
+      "milestoneId": "M08",
+      "moduleId": "MOD35",
+      "orderInModule": 1,
+      "globalOrder": 65
+    },
+    "session-management": {
+      "scId": "SC066",
+      "milestoneId": "M08",
+      "moduleId": "MOD35",
+      "orderInModule": 2,
+      "globalOrder": 66
+    },
+    "google-oauth": {
+      "scId": "SC067",
+      "milestoneId": "M08",
+      "moduleId": "MOD36",
+      "orderInModule": 1,
+      "globalOrder": 67
+    },
+    "github-oauth": {
+      "scId": "SC068",
+      "milestoneId": "M08",
+      "moduleId": "MOD36",
+      "orderInModule": 2,
+      "globalOrder": 68
+    },
+    "protected-route": {
+      "scId": "SC069",
+      "milestoneId": "M08",
+      "moduleId": "MOD37",
+      "orderInModule": 1,
+      "globalOrder": 69
+    },
+    "rbac": {
+      "scId": "SC070",
+      "milestoneId": "M08",
+      "moduleId": "MOD37",
+      "orderInModule": 2,
+      "globalOrder": 70
+    },
+    "password-reset": {
+      "scId": "SC071",
+      "milestoneId": "M08",
+      "moduleId": "MOD38",
+      "orderInModule": 1,
+      "globalOrder": 71
+    },
+    "email-verification": {
+      "scId": "SC072",
+      "milestoneId": "M08",
+      "moduleId": "MOD38",
+      "orderInModule": 2,
+      "globalOrder": 72
+    },
+    "security-review": {
+      "scId": "SC073",
+      "milestoneId": "M08",
+      "moduleId": "MOD39",
+      "orderInModule": 1,
+      "globalOrder": 73
+    },
+    "stripe": {
+      "scId": "SC074",
+      "milestoneId": "M09",
+      "moduleId": "MOD40",
+      "orderInModule": 1,
+      "globalOrder": 74
+    },
+    "stripe-checkout": {
+      "scId": "SC075",
+      "milestoneId": "M09",
+      "moduleId": "MOD40",
+      "orderInModule": 2,
+      "globalOrder": 75
+    },
+    "stripe-webhooks": {
+      "scId": "SC076",
+      "milestoneId": "M09",
+      "moduleId": "MOD41",
+      "orderInModule": 1,
+      "globalOrder": 76
+    },
+    "sslcommerz": {
+      "scId": "SC077",
+      "milestoneId": "M09",
+      "moduleId": "MOD41",
+      "orderInModule": 2,
+      "globalOrder": 77
+    },
+    "sslcommerz-sandbox": {
+      "scId": "SC078",
+      "milestoneId": "M09",
+      "moduleId": "MOD42",
+      "orderInModule": 1,
+      "globalOrder": 78
+    },
+    "introduction-to-testing": {
+      "scId": "SC079",
+      "milestoneId": "M09",
+      "moduleId": "MOD42",
+      "orderInModule": 2,
+      "globalOrder": 79
+    },
+    "uat": {
+      "scId": "SC080",
+      "milestoneId": "M09",
+      "moduleId": "MOD43",
+      "orderInModule": 1,
+      "globalOrder": 80
+    },
+    "end-to-end-testing": {
+      "scId": "SC081",
+      "milestoneId": "M09",
+      "moduleId": "MOD43",
+      "orderInModule": 2,
+      "globalOrder": 81
+    },
+    "automated-tests": {
+      "scId": "SC082",
+      "milestoneId": "M09",
+      "moduleId": "MOD44",
+      "orderInModule": 1,
+      "globalOrder": 82
+    },
+    "error-handling": {
+      "scId": "SC083",
+      "milestoneId": "M09",
+      "moduleId": "MOD44",
+      "orderInModule": 2,
+      "globalOrder": 83
+    },
+    "form-handling-and-validation": {
+      "scId": "SC084",
+      "milestoneId": "M09",
+      "moduleId": "MOD45",
+      "orderInModule": 1,
+      "globalOrder": 84
+    },
+    "performance-optimization": {
+      "scId": "SC085",
+      "milestoneId": "M09",
+      "moduleId": "MOD45",
+      "orderInModule": 2,
+      "globalOrder": 85
+    },
+    "github-pages": {
+      "scId": "SC086",
+      "milestoneId": "M10",
+      "moduleId": "MOD46",
+      "orderInModule": 1,
+      "globalOrder": 86
+    },
+    "netlify": {
+      "scId": "SC087",
+      "milestoneId": "M10",
+      "moduleId": "MOD46",
+      "orderInModule": 2,
+      "globalOrder": 87
+    },
+    "surge": {
+      "scId": "SC088",
+      "milestoneId": "M10",
+      "moduleId": "MOD46",
+      "orderInModule": 3,
+      "globalOrder": 88
+    },
+    "vercel": {
+      "scId": "SC089",
+      "milestoneId": "M10",
+      "moduleId": "MOD47",
+      "orderInModule": 1,
+      "globalOrder": 89
+    },
+    "railway": {
+      "scId": "SC090",
+      "milestoneId": "M10",
+      "moduleId": "MOD47",
+      "orderInModule": 2,
+      "globalOrder": 90
+    },
+    "render": {
+      "scId": "SC091",
+      "milestoneId": "M10",
+      "moduleId": "MOD48",
+      "orderInModule": 1,
+      "globalOrder": 91
+    },
+    "custom-domain": {
+      "scId": "SC092",
+      "milestoneId": "M10",
+      "moduleId": "MOD48",
+      "orderInModule": 2,
+      "globalOrder": 92
+    },
+    "ssl": {
+      "scId": "SC093",
+      "milestoneId": "M10",
+      "moduleId": "MOD49",
+      "orderInModule": 1,
+      "globalOrder": 93
+    },
+    "prd": {
+      "scId": "SC094",
+      "milestoneId": "M10",
+      "moduleId": "MOD49",
+      "orderInModule": 2,
+      "globalOrder": 94
+    },
+    "requirement-analysis": {
+      "scId": "SC095",
+      "milestoneId": "M10",
+      "moduleId": "MOD50",
+      "orderInModule": 1,
+      "globalOrder": 95
+    },
+    "user-stories": {
+      "scId": "SC096",
+      "milestoneId": "M10",
+      "moduleId": "MOD50",
+      "orderInModule": 2,
+      "globalOrder": 96
+    },
+    "git-worktrees": {
+      "scId": "SC097",
+      "milestoneId": "M10",
+      "moduleId": "MOD51",
+      "orderInModule": 1,
+      "globalOrder": 97
+    },
+    "api-integration": {
+      "scId": "SC098",
+      "milestoneId": "M10",
+      "moduleId": "MOD51",
+      "orderInModule": 2,
+      "globalOrder": 98
+    },
+    "modular-architecture": {
+      "scId": "SC099",
+      "milestoneId": "M10",
+      "moduleId": "MOD52",
+      "orderInModule": 1,
+      "globalOrder": 99
+    },
+    "feature-based-module-organization": {
+      "scId": "SC100",
+      "milestoneId": "M10",
+      "moduleId": "MOD52",
+      "orderInModule": 2,
+      "globalOrder": 100
+    },
+    "ai-mindset-development": {
+      "scId": "SC101",
+      "milestoneId": "M11",
+      "moduleId": "MOD53",
+      "orderInModule": 1,
+      "globalOrder": 101
+    },
+    "prompt-engineering": {
+      "scId": "SC102",
+      "milestoneId": "M11",
+      "moduleId": "MOD53",
+      "orderInModule": 2,
+      "globalOrder": 102
+    },
+    "context-engineering": {
+      "scId": "SC103",
+      "milestoneId": "M11",
+      "moduleId": "MOD53",
+      "orderInModule": 3,
+      "globalOrder": 103
+    },
+    "wireframing-prototyping-with-ai": {
+      "scId": "SC104",
+      "milestoneId": "M11",
+      "moduleId": "MOD54",
+      "orderInModule": 1,
+      "globalOrder": 104
+    },
+    "cursor-ai": {
+      "scId": "SC105",
+      "milestoneId": "M11",
+      "moduleId": "MOD54",
+      "orderInModule": 2,
+      "globalOrder": 105
+    },
+    "cursor-agents": {
+      "scId": "SC106",
+      "milestoneId": "M11",
+      "moduleId": "MOD54",
+      "orderInModule": 3,
+      "globalOrder": 106
+    },
+    "claude-code-cli": {
+      "scId": "SC107",
+      "milestoneId": "M11",
+      "moduleId": "MOD55",
+      "orderInModule": 1,
+      "globalOrder": 107
+    },
+    "claudemd": {
+      "scId": "SC108",
+      "milestoneId": "M11",
+      "moduleId": "MOD55",
+      "orderInModule": 2,
+      "globalOrder": 108
+    },
+    "github-copilot-pro": {
+      "scId": "SC109",
+      "milestoneId": "M11",
+      "moduleId": "MOD56",
+      "orderInModule": 1,
+      "globalOrder": 109
+    },
+    "coderabbit": {
+      "scId": "SC110",
+      "milestoneId": "M11",
+      "moduleId": "MOD56",
+      "orderInModule": 2,
+      "globalOrder": 110
+    },
+    "ollama": {
+      "scId": "SC111",
+      "milestoneId": "M11",
+      "moduleId": "MOD57",
+      "orderInModule": 1,
+      "globalOrder": 111
+    },
+    "opencode": {
+      "scId": "SC112",
+      "milestoneId": "M11",
+      "moduleId": "MOD57",
+      "orderInModule": 2,
+      "globalOrder": 112
+    },
+    "antigravity": {
+      "scId": "SC113",
+      "milestoneId": "M11",
+      "moduleId": "MOD58",
+      "orderInModule": 1,
+      "globalOrder": 113
+    },
+    "zai": {
+      "scId": "SC114",
+      "milestoneId": "M11",
+      "moduleId": "MOD58",
+      "orderInModule": 2,
+      "globalOrder": 114
+    },
+    "boltnew": {
+      "scId": "SC115",
+      "milestoneId": "M11",
+      "moduleId": "MOD59",
+      "orderInModule": 1,
+      "globalOrder": 115
+    },
+    "lovable": {
+      "scId": "SC116",
+      "milestoneId": "M11",
+      "moduleId": "MOD59",
+      "orderInModule": 2,
+      "globalOrder": 116
+    },
+    "v0-by-vercel": {
+      "scId": "SC117",
+      "milestoneId": "M11",
+      "moduleId": "MOD60",
+      "orderInModule": 1,
+      "globalOrder": 117
+    },
+    "figma-mcp": {
+      "scId": "SC118",
+      "milestoneId": "M11",
+      "moduleId": "MOD60",
+      "orderInModule": 2,
+      "globalOrder": 118
+    },
+    "figma-make": {
+      "scId": "SC119",
+      "milestoneId": "M11",
+      "moduleId": "MOD61",
+      "orderInModule": 1,
+      "globalOrder": 119
+    },
+    "github-mcp": {
+      "scId": "SC120",
+      "milestoneId": "M11",
+      "moduleId": "MOD61",
+      "orderInModule": 2,
+      "globalOrder": 120
+    },
+    "supabase-mcp": {
+      "scId": "SC121",
+      "milestoneId": "M11",
+      "moduleId": "MOD62",
+      "orderInModule": 1,
+      "globalOrder": 121
+    },
+    "browser-mcp": {
+      "scId": "SC122",
+      "milestoneId": "M11",
+      "moduleId": "MOD62",
+      "orderInModule": 2,
+      "globalOrder": 122
+    },
+    "firebase-studio": {
+      "scId": "SC123",
+      "milestoneId": "M11",
+      "moduleId": "MOD63",
+      "orderInModule": 1,
+      "globalOrder": 123
+    },
+    "google-ai-studio": {
+      "scId": "SC124",
+      "milestoneId": "M11",
+      "moduleId": "MOD63",
+      "orderInModule": 2,
+      "globalOrder": 124
+    },
+    "replit-ai-agent": {
+      "scId": "SC125",
+      "milestoneId": "M11",
+      "moduleId": "MOD64",
+      "orderInModule": 1,
+      "globalOrder": 125
+    },
+    "windsurf-ide": {
+      "scId": "SC126",
+      "milestoneId": "M11",
+      "moduleId": "MOD64",
+      "orderInModule": 2,
+      "globalOrder": 126
+    },
+    "parallel-ai-agents": {
+      "scId": "SC127",
+      "milestoneId": "M11",
+      "moduleId": "MOD65",
+      "orderInModule": 1,
+      "globalOrder": 127
+    },
+    "ai-code-review": {
+      "scId": "SC128",
+      "milestoneId": "M11",
+      "moduleId": "MOD65",
+      "orderInModule": 2,
+      "globalOrder": 128
+    },
+    "ai-refactoring": {
+      "scId": "SC129",
+      "milestoneId": "M11",
+      "moduleId": "MOD66",
+      "orderInModule": 1,
+      "globalOrder": 129
+    },
+    "ai-security-review": {
+      "scId": "SC130",
+      "milestoneId": "M11",
+      "moduleId": "MOD66",
+      "orderInModule": 2,
+      "globalOrder": 130
+    },
+    "ai-integration-in-full-stack-project": {
+      "scId": "SC131",
+      "milestoneId": "M11",
+      "moduleId": "MOD67",
+      "orderInModule": 1,
+      "globalOrder": 131
+    },
+    "vibe-coding": {
+      "scId": "SC132",
+      "milestoneId": "M11",
+      "moduleId": "MOD67",
+      "orderInModule": 2,
+      "globalOrder": 132
+    }
+  }
+}
