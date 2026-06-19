@@ -239,41 +239,46 @@
     "lessonSteps": [
       {
         "order": 1,
-        "title": "VS Code Terminal কী এবং কোথায় লাগে",
-        "content": "এই ধাপে VS Code Terminal খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "VS Code Terminal কী",
+        "content": "VS Code-এর ভিতরে একটি ছোট terminal panel থাকে। এখানে আলাদা cmd বা PowerShell না খুলে folder change, file list, npm ও git command সরাসরি চালানো যায়।"
       },
       {
         "order": 2,
-        "title": "VS Code Terminal setup বা basic structure",
-        "content": "এই ধাপে VS Code Terminal খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Terminal panel খোলা",
+        "content": "মেনু থেকে Terminal → New Terminal, অথবা shortcut Ctrl+` (backtick) চাপলে নিচে terminal panel খুলে যায়। ডিফল্ট shell Windows-এ PowerShell, Mac/Linux-এ zsh।"
       },
       {
         "order": 3,
-        "title": "VS Code Terminal দিয়ে প্রথম ছোট কাজ",
-        "content": "এই ধাপে VS Code Terminal খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Shell পরিবর্তন",
+        "content": "Terminal-এর ডানদিকে dropdown-এ চাপ দিয়ে PowerShell, Command Prompt, Git Bash, বা zsh-এর মধ্যে যেকোনো shell বেছে নেওয়া যায়।"
       },
       {
         "order": 4,
-        "title": "VS Code Terminal ব্যবহার করে real-life example",
-        "content": "এই ধাপে VS Code Terminal খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "প্রথম কয়েকটি command",
+        "content": "pwd দিয়ে বর্তমান folder দেখুন, ls বা dir দিয়ে file-এর তালিকা দেখুন, mkdir demo দিয়ে নতুন folder বানান এবং cd demo দিয়ে ভিতরে যান।"
       },
       {
         "order": 5,
-        "title": "VS Code Terminal শেখার সময় common mistake",
-        "content": "এই ধাপে VS Code Terminal খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Multi-terminal ও split",
+        "content": "Terminal panel-এর + বোতামে চাপ দিয়ে একসাথে একাধিক terminal খোলা যায়। ডানদিকে split icon দিয়ে একই panel-কে পাশাপাশি ভাগ করা যায়—একটিতে server চলবে, অন্যটিতে edit।"
+      },
+      {
+        "order": 6,
+        "title": "Terminal-এ common mistake",
+        "content": "ভুল folder-এ command চালালে \"file not found\" আসে। আগে pwd ও ls দিয়ে confirm করে নিন, তারপর command চালান। Ctrl+C দিয়ে যেকোনো চলমান command বন্ধ করা যায়।"
       }
     ],
     "examples": [
-      "VS Code Terminal শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
-      "VS Code Terminal না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
-      "VS Code Terminal practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+      "VS Code-এর ভিতরের terminal-এ npm install দিলে আলাদা cmd খোলার দরকার হয় না।",
+      "একই panel-এ split করে একদিকে server, অন্যদিকে git log দেখা যায়।",
+      "ভুল command-এ Ctrl+C চেপে বন্ধ করুন, terminal আটকে যাবে না।"
     ],
     "codeExamples": [
       {
-        "title": "VS Code Terminal terminal command",
+        "title": "প্রথম terminal command",
         "language": "bash",
-        "code": "node -v\nnpm -v",
-        "explanation": "এই command দিয়ে Node.js এবং npm install আছে কিনা দেখা যায়।"
+        "code": "pwd\nls\nmkdir demo\ncd demo",
+        "explanation": "pwd = বর্তমান folder path, ls = ফাইলের তালিকা, mkdir demo = নতুন 'demo' folder, cd demo = সেই folder-এ ঢোকা।"
       }
     ],
     "commonMistakes": [
@@ -430,9 +435,7 @@
     "aiTeacherGuide": "শিক্ষার্থীকে VS Code Terminal শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
     "status": "draft",
     "estimatedTime": 35,
-    "prerequisites": [
-      "vs-code"
-    ],
+    "prerequisites": [],
     "nextSkills": [
       "nodejs"
     ]
@@ -456,41 +459,41 @@
     "lessonSteps": [
       {
         "order": 1,
-        "title": "Node.js কী এবং কোথায় লাগে",
-        "content": "এই ধাপে Node.js খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Node.js কী",
+        "content": "Node.js হলো JavaScript যেটা browser-এর বাইরে computer-এ চলে। এটা দিয়ে server, script ও command-line tool বানানো যায়।"
       },
       {
         "order": 2,
-        "title": "Node.js setup বা basic structure",
-        "content": "এই ধাপে Node.js খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Install ও version দেখা",
+        "content": "nodejs.org থেকে LTS installer ডাউনলোড করে install করুন। এরপর terminal-এ node -v ও npm -v দিয়ে version যাচাই করুন।"
       },
       {
         "order": 3,
-        "title": "Node.js দিয়ে প্রথম ছোট কাজ",
-        "content": "এই ধাপে Node.js খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "প্রথম Node script",
+        "content": "app.js নামে file বানান, তাতে console.log('Hello World') লিখুন এবং terminal-এ node app.js চালিয়ে output দেখুন।"
       },
       {
         "order": 4,
-        "title": "Node.js ব্যবহার করে real-life example",
-        "content": "এই ধাপে Node.js খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "npm ও package.json",
+        "content": "npm init -y দিয়ে package.json বানান। npm install express দিলে node_modules folder-এ express library যোগ হয় ও package.json-এ dependencies-এ নাম লেখা হয়।"
       },
       {
         "order": 5,
-        "title": "Node.js শেখার সময় common mistake",
-        "content": "এই ধাপে Node.js খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Node-এ common mistake",
+        "content": "script-এ syntax error থাকলে terminal-এ ^ দিয়ে error দেখায়। আগে error message পড়ুন, তারপর line number অনুযায়ী file-এ ঠিক করুন।"
       }
     ],
     "examples": [
-      "Node.js শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
-      "Node.js না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
-      "Node.js practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+      "Node.js দিয়ে একটি ছোট HTTP server লিখে browser-এ hello message দেখানো যায়।",
+      "npm install দিয়ে হাজার হাজার open-source library যোগ করা যায়।",
+      "Node script-এ console.log দিয়ে যেকোনো সময়ে value দেখে debug করা যায়।"
     ],
     "codeExamples": [
       {
-        "title": "Node.js terminal command",
-        "language": "bash",
-        "code": "node -v\nnpm -v",
-        "explanation": "এই command দিয়ে Node.js এবং npm install আছে কিনা দেখা যায়।"
+        "title": "প্রথম Node script",
+        "language": "javascript",
+        "code": "console.log('Hello from Node.js');",
+        "explanation": "এই একটি লাইন Node-এ চালালে terminal-এ Hello from Node.js লেখা আসবে।"
       }
     ],
     "commonMistakes": [
@@ -647,9 +650,7 @@
     "aiTeacherGuide": "শিক্ষার্থীকে Node.js শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
     "status": "draft",
     "estimatedTime": 35,
-    "prerequisites": [
-      "vs-code-terminal"
-    ],
+    "prerequisites": [],
     "nextSkills": [
       "git-scm"
     ]
@@ -673,41 +674,41 @@
     "lessonSteps": [
       {
         "order": 1,
-        "title": "Git SCM কী এবং কোথায় লাগে",
-        "content": "এই ধাপে Git SCM খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Git SCM কী",
+        "content": "Git SCM হলো version control system যেটা আপনার code-এর সব পুরনো version save রাখে। কে কখন কী বদলেছে সেটা ট্র্যাক করা যায়।"
       },
       {
         "order": 2,
-        "title": "Git SCM setup বা basic structure",
-        "content": "এই ধাপে Git SCM খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Install ও প্রথম config",
+        "content": "git-scm.com থেকে installer ডাউনলোড করুন। Install-এর পর git config --global user.name ও git config --global user.email দিয়ে নাম ও ইমেইল সেট করুন।"
       },
       {
         "order": 3,
-        "title": "Git SCM দিয়ে প্রথম ছোট কাজ",
-        "content": "এই ধাপে Git SCM খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "প্রথম repository",
+        "content": "একটি folder-এ যান এবং git init চালান। এতে সেই folder-এ .git নামে hidden folder তৈরি হয়—এটাই আপনার repository।"
       },
       {
         "order": 4,
-        "title": "Git SCM ব্যবহার করে real-life example",
-        "content": "এই ধাপে Git SCM খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Default branch ও editor",
+        "content": "git config --global init.defaultBranch main দিয়ে নতুন repo-র default branch main রাখুন। git config --global core.editor code দিয়ে default editor VS Code সেট করুন।"
       },
       {
         "order": 5,
-        "title": "Git SCM শেখার সময় common mistake",
-        "content": "এই ধাপে Git SCM খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Git SCM-এ common mistake",
+        "content": "config না করে commit করলে author-এর নাম ভুল আসে। প্রথমেই user.name ও user.email সেট করে নিন, নাহলে পরে সব commit-এর author ভুল দেখাবে।"
       }
     ],
     "examples": [
-      "Git SCM শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
-      "Git SCM না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
-      "Git SCM practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+      "Git install-এর পর git --version দিয়ে version দেখে নিন।",
+      "Config ছাড়া commit করলে পরে author ঠিক করা কঠিন, তাই আগে config সেট করুন।",
+      "git init শুধু একবারই প্রতিটি project-এ চালাতে হয়।"
     ],
     "codeExamples": [
       {
-        "title": "Git SCM terminal command",
+        "title": "Git install ও config",
         "language": "bash",
-        "code": "node -v\nnpm -v",
-        "explanation": "এই command দিয়ে Node.js এবং npm install আছে কিনা দেখা যায়।"
+        "code": "git --version\ngit config --global user.name 'Your Name'\ngit config --global user.email 'you@example.com'\ngit init",
+        "explanation": "প্রথমে version দেখুন, তারপর নাম ও ইমেইল সেট করুন, শেষে বর্তমান folder-এ repository শুরু করুন।"
       }
     ],
     "commonMistakes": [
@@ -864,9 +865,7 @@
     "aiTeacherGuide": "শিক্ষার্থীকে Git SCM শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
     "status": "draft",
     "estimatedTime": 35,
-    "prerequisites": [
-      "nodejs"
-    ],
+    "prerequisites": [],
     "nextSkills": [
       "git"
     ]
@@ -890,41 +889,41 @@
     "lessonSteps": [
       {
         "order": 1,
-        "title": "Git কী এবং কোথায় লাগে",
-        "content": "এই ধাপে Git খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Git এর মূল ধারণা",
+        "content": "Git-এ file তিন অবস্থায় থাকে: working directory (আপনার folder), staging area (পরবর্তী commit-এর জন্য তালিকা), ও repository (.git-এর ভিতরে সংরক্ষিত history)।"
       },
       {
         "order": 2,
-        "title": "Git setup বা basic structure",
-        "content": "এই ধাপে Git খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Status ও add",
+        "content": "git status দিয়ে দেখুন কোন file বদলেছে। বদলানো file-কে staging-এ আনতে git add filename, আর সব বদলানো file একসাথে আনতে git add . চালান।"
       },
       {
         "order": 3,
-        "title": "Git দিয়ে প্রথম ছোট কাজ",
-        "content": "এই ধাপে Git খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Commit করা",
+        "content": "git commit -m 'meaningful message' দিয়ে staging-এ থাকা change-গুলো repository-তে সংরক্ষণ করুন। message-এ কী বদলেছে সেটা পরিষ্কার লিখুন।"
       },
       {
         "order": 4,
-        "title": "Git ব্যবহার করে real-life example",
-        "content": "এই ধাপে Git খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Log ও diff",
+        "content": "git log দিয়ে আগের commit-গুলোর তালিকা দেখুন। git diff দিয়ে working directory ও last commit-এর মধ্যে পার্থক্য দেখুন।"
       },
       {
         "order": 5,
-        "title": "Git শেখার সময় common mistake",
-        "content": "এই ধাপে Git খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Git-এ common mistake",
+        "content": "commit করতে ভুলে গেলে change হারিয়ে যায় না, কিন্তু history-তে ঢোকে না। প্রতিটি logical কাজ শেষ হলে commit করুন—ছোট ছোট commit রাখা ভালো।"
       }
     ],
     "examples": [
-      "Git শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
-      "Git না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
-      "Git practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+      "প্রতিটি ছোট কাজ শেষে commit করলে পরে bug খুঁজতে সুবিধা হয়।",
+      "git status ও git log খুব ঘন ঘন চালিয়ে কোথায় আছেন যাচাই করুন।",
+      "ভুল commit হলে git reset দিয়ে আগের অবস্থায় ফিরে যাওয়া যায় (তবে সাবধানে)।"
     ],
     "codeExamples": [
       {
-        "title": "Git terminal command",
+        "title": "প্রথম Git workflow",
         "language": "bash",
-        "code": "node -v\nnpm -v",
-        "explanation": "এই command দিয়ে Node.js এবং npm install আছে কিনা দেখা যায়।"
+        "code": "git status\ngit add .\ngit commit -m 'first commit'\ngit log",
+        "explanation": "status দিয়ে দেখুন কী বদলেছে, add দিয়ে staging-এ আনুন, commit দিয়ে সংরক্ষণ করুন, log দিয়ে history দেখুন।"
       }
     ],
     "commonMistakes": [
@@ -1081,9 +1080,7 @@
     "aiTeacherGuide": "শিক্ষার্থীকে Git শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
     "status": "draft",
     "estimatedTime": 35,
-    "prerequisites": [
-      "git-scm"
-    ],
+    "prerequisites": [],
     "nextSkills": [
       "github"
     ]
@@ -1107,41 +1104,41 @@
     "lessonSteps": [
       {
         "order": 1,
-        "title": "GitHub কী এবং কোথায় লাগে",
-        "content": "এই ধাপে GitHub খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "GitHub কী",
+        "content": "GitHub হলো cloud-এ host করা Git repository-র service। আপনার local Git project ইন্টারনেটে রেখে অন্যদের সাথে share ও collaborate করা যায়।"
       },
       {
         "order": 2,
-        "title": "GitHub setup বা basic structure",
-        "content": "এই ধাপে GitHub খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Account ও repo তৈরি",
+        "content": "github.com-এ গিয়ে free account খুলুন। এরপর New repository বোতামে চাপ দিয়ে নতুন remote repo বানান। Public অথবা Private বেছে নিন।"
       },
       {
         "order": 3,
-        "title": "GitHub দিয়ে প্রথম ছোট কাজ",
-        "content": "এই ধাপে GitHub খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Remote যোগ ও push",
+        "content": "git remote add origin https://github.com/username/repo.git দিয়ে remote যোগ করুন। git branch -M main দিয়ে branch main করুন এবং git push -u origin main দিয়ে প্রথমবার push করুন।"
       },
       {
         "order": 4,
-        "title": "GitHub ব্যবহার করে real-life example",
-        "content": "এই ধাপে GitHub খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Pull request workflow",
+        "content": "নতুন feature-এর জন্য git checkout -b feature-xyz দিয়ে branch বানান, change commit করুন, git push origin feature-xyz দিয়ে push করুন। GitHub-এ Pull Request খুলুন ও review-এর পর merge করুন।"
       },
       {
         "order": 5,
-        "title": "GitHub শেখার সময় common mistake",
-        "content": "এই ধাপে GitHub খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "GitHub-এ common mistake",
+        "content": "gitignore না রাখলে node_modules ও .env ফাইল push হয়ে যায়। আগে .gitignore ঠিক করুন, তারপর commit ও push করুন। Secret token কখনো push করবেন না।"
       }
     ],
     "examples": [
-      "GitHub শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
-      "GitHub না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
-      "GitHub practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+      "GitHub-এর প্রতিটি repo-তে README, .gitignore ও license যোগ করা ভালো practice।",
+      "Pull Request-এর মাধ্যমে code review নেওয়া industry standard।",
+      "GitHub Actions দিয়ে test ও deploy অটোমেট করা যায়।"
     ],
     "codeExamples": [
       {
-        "title": "GitHub terminal command",
+        "title": "Local repo GitHub-এ push",
         "language": "bash",
-        "code": "node -v\nnpm -v",
-        "explanation": "এই command দিয়ে Node.js এবং npm install আছে কিনা দেখা যায়।"
+        "code": "git remote add origin https://github.com/username/repo.git\ngit branch -M main\ngit push -u origin main",
+        "explanation": "remote যোগ করুন, branch main করুন এবং main branch-এর সব change প্রথমবার push করুন।"
       }
     ],
     "commonMistakes": [
@@ -1298,9 +1295,7 @@
     "aiTeacherGuide": "শিক্ষার্থীকে GitHub শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
     "status": "draft",
     "estimatedTime": 35,
-    "prerequisites": [
-      "git"
-    ],
+    "prerequisites": [],
     "nextSkills": [
       "github-desktop"
     ]
@@ -1324,41 +1319,41 @@
     "lessonSteps": [
       {
         "order": 1,
-        "title": "GitHub Desktop কী এবং কোথায় লাগে",
-        "content": "এই ধাপে GitHub Desktop খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "GitHub Desktop কী",
+        "content": "GitHub Desktop হলো Git ও GitHub-এর জন্য visual client। command line না জেনেই mouse দিয়ে commit, push, pull ও branch merge করা যায়।"
       },
       {
         "order": 2,
-        "title": "GitHub Desktop setup বা basic structure",
-        "content": "এই ধাপে GitHub Desktop খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Install ও sign in",
+        "content": "desktop.github.com থেকে installer ডাউনলোড করুন। Install-এর পর File → Options → Accounts থেকে GitHub account দিয়ে sign in করুন।"
       },
       {
         "order": 3,
-        "title": "GitHub Desktop দিয়ে প্রথম ছোট কাজ",
-        "content": "এই ধাপে GitHub Desktop খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Repository clone বা add",
+        "content": "File → Clone repository-তে আপনার GitHub repo বেছে নিন, অথবা File → Add local repository দিয়ে আগের local repo যোগ করুন।"
       },
       {
         "order": 4,
-        "title": "GitHub Desktop ব্যবহার করে real-life example",
-        "content": "এই ধাপে GitHub Desktop খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Commit, push ও branch",
+        "content": "বাম পাশে Changed files দেখুন, summary ও description লিখে Commit to main চাপুন। এরপর Push origin চাপুন। Current Branch dropdown থেকে New branch বানান।"
       },
       {
         "order": 5,
-        "title": "GitHub Desktop শেখার সময় common mistake",
-        "content": "এই ধাপে GitHub Desktop খুব সহজ বাংলায় শেখানো হবে। আগে ধারণা, তারপর ছোট demo, তারপর practice। learner যদি ইংরেজি না জানে, তাহলে প্রতিটি ইংরেজি শব্দের বাংলা উচ্চারণ ও মানে দেওয়া হবে।"
+        "title": "Conflict ও sync",
+        "content": "remote-এ নতুন change থাকলে Fetch origin চাপুন, তারপর Pull origin দিয়ে local-এ আনুন। Merge conflict হলে editor-এ conflict marker ঠিক করে commit করুন।"
       }
     ],
     "examples": [
-      "GitHub Desktop শেখার সময় আগে ছোট demo করুন, তারপর নিজের project-এ ব্যবহার করুন।",
-      "GitHub Desktop না বুঝলে AI Teacher-কে বলুন: “আরও সহজ করে গ্রামের উদাহরণ দাও।”",
-      "GitHub Desktop practice করার পর নিজের ভুলগুলোর তালিকা লিখুন।"
+      "GitHub Desktop-এর History tab-এ সব commit ও file diff visually দেখা যায়।",
+      "একাধিক branch একই সময়ে দেখা ও switch করা যায়।",
+      "Conflict হলে in-app editor-এ resolve করে সরাসরি commit করা যায়।"
     ],
     "codeExamples": [
       {
-        "title": "GitHub Desktop terminal command",
+        "title": "GitHub Desktop যে command চালায়",
         "language": "bash",
-        "code": "node -v\nnpm -v",
-        "explanation": "এই command দিয়ে Node.js এবং npm install আছে কিনা দেখা যায়।"
+        "code": "git status\ngit add .\ngit commit -m 'update from GitHub Desktop'\ngit push origin main",
+        "explanation": "আপনি button-এ চাপ দিলে GitHub Desktop আসলে এই একই Git command চালায়—শুধু mouse-এর বদলে click।"
       }
     ],
     "commonMistakes": [
@@ -1515,9 +1510,7 @@
     "aiTeacherGuide": "শিক্ষার্থীকে GitHub Desktop শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
     "status": "draft",
     "estimatedTime": 35,
-    "prerequisites": [
-      "github"
-    ],
+    "prerequisites": [],
     "nextSkills": [
       "html5"
     ]
@@ -1738,9 +1731,7 @@
     "aiTeacherGuide": "শিক্ষার্থীকে HTML5 শেখানোর সময় খুব সহজ বাংলা ব্যবহার করো। ইংরেজি term আসলে বাংলা উচ্চারণ ও ছোট মানে দাও। প্রথমে গ্রামের/ঘরের উদাহরণ, তারপর ৩ ধাপের practice, শেষে ছোট homework দাও। ভুল করলে কখনো বকা দেবে না। বলবে: “সমস্যা নেই, এবার আমরা একসাথে ঠিক করি।”",
     "status": "approved",
     "estimatedTime": 35,
-    "prerequisites": [
-      "github-desktop"
-    ],
+    "prerequisites": [],
     "nextSkills": [
       "css3"
     ]
