@@ -56,18 +56,21 @@ async function seedCards(): Promise<void> {
   // আসল Zod schema দিয়ে validate — ভুল data DB-তে ঢুকবে না
   const cards = skillCardImportSchema.parse(raw);
 
-  let inserted = 0;
-  let skipped = 0;
+  let upserted = 0;
+  let updatedOnly = 0;
+  let insertedOnly = 0;
   for (const card of cards) {
-    const exists = await SkillCardModel.exists({ slug: card.slug });
-    if (exists) {
-      skipped++;
-      continue;
-    }
-    await SkillCardModel.create(card);
-    inserted++;
+    const existed = await SkillCardModel.exists({ slug: card.slug });
+    const result = await SkillCardModel.findOneAndUpdate(
+      { slug: card.slug },
+      { $set: card },
+      { upsert: true, new: true, setDefaultsOnInsert: true },
+    );
+    if (result) upserted++;
+    if (existed) updatedOnly++;
+    else insertedOnly++;
   }
-  logger.info(`✅ Skill card seed: ${inserted}টি যোগ, ${skipped}টি আগে থেকেই ছিল (${file})`);
+  logger.info(`✅ Skill card seed: ${upserted}টি upsert (${updatedOnly}টি আপডেট, ${insertedOnly}টি নতুন) (${file})`);
 }
 
 
